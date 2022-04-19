@@ -19,6 +19,9 @@
     <script src="js/all.min.js"></script>
 </head>
 <body>
+	
+	<!--Wallpaper-Header-->
+	<?php include("templates/wallpaper-header.php"); ?>
 	<!--Menú-->
 	<?php include("templates/menu.php"); ?>
 	<!--Header-->

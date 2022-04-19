@@ -22,10 +22,18 @@
 					"Correo"=>"yilver0906@gmail.com",
 					"Social"=> $social_Yilver);
 
+	$social_Anabel = ["Facebook"=>"anabel1",
+					 "Instagram"=>"anabel1",
+					 "Whatsapp"=>"anabel1"];
+	$anabel = array("Nombre"=>"Anabel López", 
+					"Correo"=>"anabel@gmail.com",
+					"Social"=> $social_Yilver);
+
 	//Array
 	$meTeam[0] = $encli;
 	$meTeam[1] = $gustavo;
 	$meTeam[2] = $yilver;
+	$meTeam[3] = $anabel;
 
 	//Imprimir todos los datos.
 	//print_r($meTeam);

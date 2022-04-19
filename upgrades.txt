@@ -1,10 +1,14 @@
 Task List:
 ----¿Quiénes Somos?
-----Personal de Trabajo.
-		Alianzas comerciales.
+----Nuestro equipo.
+--------Alianzas comerciales.
 	.-------------------------------
 	Servicios.
 		Números de servicios.
 		Clientes actuales.
 	Zonas de coberturas.
 	Contacto.
+
+
+Servicios: 
+	LEER PDF

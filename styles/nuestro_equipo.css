@@ -32,6 +32,9 @@
   text-align: center;
   padding: 10px;
 }
+.alianzasContainer h3{
+  font-size: 25px;
+}
 .mePersonal .letraIEquipo{
   font-size: 28px;
   padding: 10px;
@@ -47,19 +50,20 @@
   padding: 50px;
 }
 .tarjeta{
- width: 300px;
+ width: 260px;
  background: white;
  display: flex;
  flex-flow: nowrap column;
  justify-content: center;
  align-items: center;
  padding: 10px 0;
- border-radius: 2px;
+ border-radius: 4px;
+ box-shadow: 1px 1px 10px rgba(10, 10, 10, .5);
 }
 .tarjeta img{
   object-fit: cover;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 100%;
 }
 .tarjeta h4{
@@ -90,3 +94,105 @@
   font-size: 25px;
 }
 /*FIN DEL Personal*/
+
+/*Alianzas*/
+.alianzasContainer{
+  height: 200px;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+}
+.alianzas{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 200px;
+}
+.alianzas .equipo{
+  width: 80px;
+  height: 80px;
+  background: lightblue;
+  margin: 10px 30px;
+}
+.alianzas .equipo img{
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+  filter: grayscale(1);
+  border-radius: 4px;
+}
+.alianzas .equipo img:hover{
+  filter: grayscale(0);
+}
+/*FIN DE las alianzas*/
+
+
+/*Media Query*/
+@media (max-width: 1180px){
+  .tarjeta{
+    margin: 10px 60px;
+  } 
+  .ContenedorTarjetas{
+    justify-content: center;
+  }
+  .alianzas{
+    padding: 0 0;
+  }
+  .alianzas .equipo{
+    margin: 10px 10px;
+  }
+}
+
+@media (max-width: 860px){
+  .tarjeta{
+    margin: 10px 10px;
+  } 
+}
+@media (max-width: 860px){
+  .tarjeta{
+    margin: 10px 10px;
+  } 
+  .ContenedorTarjetas{
+    padding: 0px;
+  }
+}
+@media (max-width: 700px){
+  .alianzas{
+      flex-flow: wrap row;
+    }
+    .alianzasContainer h3{
+      margin-top: 100px;
+    }
+}
+@media (max-width: 400px){
+ .tarjeta{
+   width: 200px;
+  }
+
+  .tarjeta img{
+    width: 120px;
+    height: 120px;
+  }
+  .tarjeta h4{
+    font-size: 17px;
+  }
+  .mePersonal h3{
+    font-size: 24px;
+  }
+  .alianzasContainer h3{
+    font-size: 20px;
+  }
+  .mePersonal .letraIEquipo{
+    font-size: 20px;
+  }
+  .alianzasContainer h3{
+    margin-top: 0;
+  } 
+  .alianzasContainer{
+    height: 400px;
+  }
+}
+
+
+/*FIN DE LOS Media Query*/
