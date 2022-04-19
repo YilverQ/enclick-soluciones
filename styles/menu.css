@@ -1,0 +1,132 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+/*FIN de las Customs Propities*/
+
+/*NAV*/
+nav{
+    width: 100%;
+    height: 70px;
+    background: white;
+    position: fixed;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    overflow: hidden;
+}
+nav img{
+    display: block;
+    object-fit: cover;
+    height: 65px;
+    margin-left: 20px;
+    animation: moverAbajo 1s;
+}
+nav ul{
+    height: 70px;
+    display: flex;
+    margin-right: 20px;
+}
+nav ul li{
+    font-size: 14px;
+    line-height: 75px;
+    padding: 0 10px;
+    margin-right: 10px;
+    transition: .5s all;
+    animation: moverArriba 1s;
+}
+nav li:hover{
+    background: var(--color-green);
+    color: white;
+    transition: .5s all;
+}
+
+
+ /*BOTON INVISIBLE*/
+label #sign-one,
+label #sign-two{
+    font-size: 32px;
+    color: var(--color-blue);
+    float: right;
+    cursor: pointer;
+    display: none;
+    padding: 0 20px;
+    animation: desvanecer 1s;
+}
+#res-menu, .res-menu{
+    display: none;
+}
+
+
+/*Media Query MENU*/
+@media (max-width: 949px){
+    .res-menu{
+        display: block;
+    }
+    label #sign-one{
+        display: block;
+    }
+    nav{
+        flex-flow: nowrap row-reverse;
+    }
+    nav ul{
+        position: fixed;
+        width: 70%;
+        height: 100vh;
+        background: var(--color-blue);
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+        z-index: 10;
+        flex-flow: nowrap column;
+        align-items: center;
+    }
+    nav ul li{
+        color: white;
+        display: block;
+        margin: 10px 0;
+        line-height: 30px;
+        padding: 20px;
+        width: 300px;
+        font-size: 18px;
+        border-radius: 2px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #res-menu:checked ~ ul{
+        left: 0;
+    }
+    #res-menu:checked ~ label #sign-one{
+        display: none;
+    }
+    #res-menu:checked ~ label #sign-two{
+        display: block;
+    }
+}
+
+@media (max-width: 500px){
+    nav ul li{
+        padding: 20px 0;
+        width: 100%;
+        font-size: 16px;
+    }
+    nav ul a{
+        width: 100%;
+    }
+}
+/*FIN DEL NAV*/

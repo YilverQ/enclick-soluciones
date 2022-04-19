@@ -1,0 +1,88 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+/*Estilos Principales*/
+
+
+/*Quienes Somos*/
+.quienesSomos{
+  width: 100%;
+  /*background: var(--color-white);*/
+  padding: 100px 0;
+  border-top: 2px solid rgba(10, 10, 10, .1);
+}
+.quienSomosCentral{
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+}
+.quienSomosCentral h2{
+  text-align: center;
+  font-size: 32px;
+  padding: 10px;
+}
+.titleQuienesSomos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleQuienesSomos .letraIEquipo{
+  font-size: 28px;
+  padding: 10px;
+  background: var(--color-green);
+  border-radius: 2px;
+}
+.quienSomosCentral p{
+  padding: 50px;
+  width: 800px;
+  margin: auto;
+  font-size: 18px;
+}
+.quienesSomos .linea{
+  width: 1px;
+  height: 80px;
+  background: rgba(10, 10, 10, .2);
+  margin: auto;
+}
+.misionVision{
+  display: flex;
+  flex-flow: nowrap column;
+}
+.bloqueMisionVision{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center;
+}
+.bloqueMisionVision:nth-child(3){
+  flex-flow: nowrap row-reverse;
+}
+.bloqueMisionVision .contenido{
+  display: flex;
+  flex-flow: nowrap column;
+}
+.bloqueMisionVision h3{
+  font-size: 25px;
+}
+.bloqueMisionVision img{
+  object-fit: contain;
+  width: 500px;
+} 
+.bloqueMisionVision .contenido p{
+  font-size: 18px;
+  width: 400px;
+  margin-top: 10px;
+}
+/*FIN DEL Quienes Somos*/

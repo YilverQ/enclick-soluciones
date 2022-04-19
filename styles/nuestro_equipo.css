@@ -1,0 +1,92 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+/*Estilos Principales*/
+
+
+/*Personal de trabajo*/
+.mePersonal{
+  width: 100%;
+  background: #3f3f3f3f;
+  padding: 100px 0;
+}
+.titleMePersonal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mePersonal h3{
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+}
+.mePersonal .letraIEquipo{
+  font-size: 28px;
+  padding: 10px;
+  background: var(--color-yellow);
+  border-radius: 2px;
+}
+.ContenedorTarjetas{
+  width: 100%;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+.tarjeta{
+ width: 300px;
+ background: white;
+ display: flex;
+ flex-flow: nowrap column;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 0;
+ border-radius: 2px;
+}
+.tarjeta img{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.tarjeta h4{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid var(--color-green);
+}
+.tarjeta:nth-child(1) h4{
+  border-bottom: 2px solid var(--color-green);
+}
+.tarjeta:nth-child(2) h4{
+  border-bottom: 2px solid var(--color-yellow);
+}
+.tarjeta:nth-child(3) h4{
+  border-bottom: 2px solid var(--color-blue);
+}
+.tarjeta p{
+  margin-top:5px;
+  font-size: 14px;
+  text-align: center;
+}
+.tarjeta .botonesRedes{
+  margin-top: 20px;
+}
+.tarjeta .botonesRedes a{
+  margin: 5px 10px;
+  font-size: 25px;
+}
+/*FIN DEL Personal*/
