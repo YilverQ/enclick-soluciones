@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="author" content="Yilver Quevedo">
+	<meta name="description" content="Enclick Soluciones">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<!-- Title -->
+	<title>{{ title }} - Enclick</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/normalize.css') }}">
+	<link rel="stylesheet" type="text/css" href=" {{ url_for('static', filename='css/estilos.css') }} ">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Estilos -->
+    <!--
+    	<link rel="shortcut icon" type="image/x-icon"  href="{{ url_for('static', filename='img/favicon.png') }}">
+    -->
+</head>
+<body>
+	<nav>
+	<input type="checkbox" id="res-menu">
+	<label for="res-menu">
+		<i class="fa fa-fabars" id="sign-one">#</i>
+		<i class="fa fa-times" id="sign-two">X</i>
+	</label>
+		<a href="/"><h2>Encl<span class="h1i">i</span><span class="h1c">c</span><span class="h1k">k</span></h2></a>
+		<ul>
+			<a href="#"><li>Productos</li></a>
+			<a href="#"><li>Servicios</li></a>
+			<a href="#"><li>Eventos</li></a>
+			<a href="/contacto"><li>Contacto</li></a>
+		</ul>
+	</nav>
+	<header>
+		<div class="bloque1">
+			<h1>Servicio De Internet En Caracas</h1>
+			<h2>No hemos sido los primeros, pero seremos los mejores, porque la innovacion es lo que nos distingue.</h2>
+			<div class="botonesMain">
+				<div class="boton"><a href="/contacto">Información</a></div>
+				<div class="boton botoncolor"><a href="#">Consultar Precio</a></div>
+			</div>
+		</div>
+		<div class="bloque2">
+			<img src="../static/img/satelite2.png">
+		</div>
+	</header>
+	{% block content %}
+	{% endblock %}
+	<footer>
+		<div class="footername">
+			<a href="/"><h2>Encl<span class="h1i">i</span><span class="h1c">c</span><span class="h1k">k</span></h2></a>
+			<p>Soluciones</p>
+		</div>
+		<div class="contactofooter">
+			<h3>Contacto</h3>
+			<ul>
+				<li>Correo:enclick@gmail.com</li>
+				<li>Nro:0212-000-0000</li>
+				<li>Whatsapp:0424-000-0000</li>
+				<li>Ubicación: Mariches k0</li>
+			</ul>
+		</div>
+		<div class="redesfooter">
+			<h3>Redes Sociales</h3>
+			<ul>
+				<a href="#"><li>Facebook</li></a>
+				<a href="#"><li>Instagram</li></a>
+				<a href="#"><li>Tik-Tok</li></a>
+			</ul>
+		</div>
+	</footer>
+	<div class="ultimo">
+		<p>Copyright 2022 - Enclick Soluciones - Politicas y Condiciones</p>
+	</div>
+</body>
+</html>
