@@ -32,4 +32,6 @@
 			<div class="equipo"><img src="images/alianzas/alianza5.png"></div>
 			<div class="equipo"><img src="images/alianzas/alianza6.png"></div>
 			<div class="equipo"><img src="images/alianzas/alianza7.png"></div>
+		</div>
+		</div>
 	</div>

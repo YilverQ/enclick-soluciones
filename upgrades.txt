@@ -12,3 +12,49 @@ Task List:
 
 Servicios: 
 	LEER PDF
+
+	-Capacitaciones:
+		** Criptomonedas. 
+		** Binance.
+		** Trust Wallet.
+		** Oratoria.
+		** Marketing Digital.
+		** Fotografía. 
+		** Tecnologías de la Información. 
+	-Straming: 
+		** Disney+
+		** HBO+
+		** Amazon Prime.
+		** Youtube Premium.
+		** Spotify.
+		** Netlifx.
+	-Suministros de Equipos tecnológicos:
+		** PC
+		** Laptops.
+		** Teléfonos Inteligentes.
+		** Impresoras. 
+		** CCTV.
+		** Pendrives.
+		** Teclados.
+		** Monitores.
+		** Mouses.
+		::::::::::::
+	-Suministros para oficinas y locales.
+		** Papelería.
+		** Toners.
+		** Artículos de limpieza. 
+	-Diseño de páginas web.
+	-Dómitica Inmótica. 
+	-Conexión de redes. 
+	-Software::
+		** Alojamiento en la nube. 
+		** Software de gestión. 
+		** Seguridad Informática. 
+	OTROS:
+		** Sistemas Biométricos. 
+		** Sistemas de puertas radio magneticas. 
+		** Portones electricos. 
+		** Alarmas.
+		** Mantenimiento de ascensores. 
+		** Instalación y mantenimiento de sistemas de Hidroneumáticos. 
+		** Electricidad en general.  

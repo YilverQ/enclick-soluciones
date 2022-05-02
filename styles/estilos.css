@@ -15,8 +15,10 @@
 */
 /*Estilos Principales*/
 
+/*/var/www/html/styles/quienes_somos.css*/
 
 /*Personal de trabajo*/
 @import url("nuestro_equipo.css");
 @import url("quienes_somos.css");
+@import url("servicios.css");
 /*FIN DEL Personal*/

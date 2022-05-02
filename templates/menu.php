@@ -16,9 +16,9 @@
 			<a href="#inicio"><li>Inicio</li></a>
 			<a href="#quienes_somos"><li>¿Quiénes somos?</li></a>
 			<a href="#nuestro_equipo"><li>Nuestro equipo</li></a>
-			<a href="#"><li>Servicios</li></a>
-			<a href="#"><li>Zonas de coberturas</li></a>
-			<a href="#"><li>Contacto</li></a>
+			<a href="#servicios"><li>Servicios</li></a>
+			<a href="#zonasCoberturas"><li>Zonas de coberturas</li></a>
+			<a href="#contacto"><li>Contacto</li></a>
 		</ul>
 	</nav>
 <!-- Final -->

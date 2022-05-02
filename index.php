@@ -30,9 +30,12 @@
 	<?php include("templates/quienes_somos.php"); ?>
 	<!--Personal de trabajo-->
 	<?php include("templates/nuestro_equipo.php"); ?>
+	<!--Servicios-->
+	<?php include("templates/servicios.php"); ?>
 	
 	
 
 
 	<!--Enlaces JS-->
+    <script src="js/servicios.js"></script>
 </body>
