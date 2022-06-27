@@ -1,33 +1,33 @@
 <?php 
 
 	//Datos De Mi Equipo.
-	$social_Encli = ["Facebook"=>"Enclick1",
-					 "Instagram"=>"Enclick1",
-					 "Whatsapp"=>"Enclick1"];
-	$encli = array( "Nombre"=>"Encli Velazque", 
-					"Correo"=>"enclick@gmail.com",
+	$social_Encli = ["Facebook"=>"https://www.facebook.com/encliemprendedor",
+					 "Instagram"=>"https://instagram.com/encli_anderson",
+					 "Whatsapp"=>"https://wa.link/aniliu"];
+	$encli = array( "Nombre"=>"Encli Velasquez", 
+					"Cargo"=>"Emprendedor",
 					"Social"=> $social_Encli);
 	
-	$social_Gustavo = ["Facebook"=>"Gustavo1",
-					 "Instagram"=>"Gustavo1",
-					 "Whatsapp"=>"Gustavo1"];
+	$social_Gustavo = ["Facebook"=>"https://www.facebook.com/gustavo.ponce2",
+					 "Instagram"=>"https://www.instagram.com/gustavoponce206",
+					 "Whatsapp"=>"https://walink.co/511551"];
 	$gustavo = array("Nombre"=>"Gustavo Ponce", 
-					"Correo"=>"gustavo@gmail.com",
+					"Cargo"=>"Emprendedor",
 					"Social"=> $social_Gustavo);
 
 	$social_Yilver = ["Facebook"=>"https://www.facebook.com/yilver0906",
 					 "Instagram"=>"https://instagram.com/yilver_quevedo",
-					 "Whatsapp"=>"https://t.me/YilverQ"];
+					 "Whatsapp"=>"https://walink.co/1c5220"];
 	$yilver = array("Nombre"=>"Yilver Quevedo", 
-					"Correo"=>"yilver0906@gmail.com",
+					"Cargo"=>"Desarrollador web",
 					"Social"=> $social_Yilver);
 
-	$social_Anabel = ["Facebook"=>"anabel1",
-					 "Instagram"=>"anabel1",
-					 "Whatsapp"=>"anabel1"];
+	$social_Anabel = ["Facebook"=>"https://www.facebook.com/lopezaraque",
+					 "Instagram"=>"https://www.instagram.com/jelitalpz7",
+					 "Whatsapp"=>"https://wa.link/ac0hif"];
 	$anabel = array("Nombre"=>"Anabel López", 
-					"Correo"=>"anabel@gmail.com",
-					"Social"=> $social_Yilver);
+					"Cargo"=>"Social media",
+					"Social"=> $social_Anabel);
 
 	//Array
 	$meTeam[0] = $encli;

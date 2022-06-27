@@ -1,0 +1,86 @@
+/*Importar Estilos*/
+@import url("template.css");
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+
+.videos-youtube{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.videos-youtube .content{
+  display: flex;
+  background: lightcyan;
+  width: 600px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.videos-youtube .content img{
+  object-fit: contain;
+  width: 370px;
+  height: 250px;
+  margin-right: 5px;
+}
+.videos-youtube .content .author{
+  color: var(--color-green);
+  font-size: 13px;
+  padding: 6px 0;
+  margin-left: 5px;
+}
+.youtubeIcon{
+  font-size: 30px;
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+.videos-youtube .textDescription{
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 5px 20px 0 0;
+}
+.videos-youtube .description h3{
+  padding: 10px 20px 0 5px;
+  color: black;
+}
+
+.content .botonVideo{
+  padding: 8px;
+  font-size: 16px;
+  color: white;
+  background: var(--color-green);
+  width: 60px;
+  border-radius: 2px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+}
+
+/*Media query, Alianzas*/
+@media (max-width: 600px){
+  .videos-youtube .content{
+    flex-flow: row wrap;
+    width: 370px;
+    margin: auto;
+    margin-top: 15px;
+  } 
+}
+/*Modificar max width*/
+@media (max-width: 400px){
+  .videos-youtube .content{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+    overflow: hidden;
+  }
+}

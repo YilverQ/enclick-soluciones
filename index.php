@@ -32,10 +32,27 @@
 	<?php include("templates/nuestro_equipo.php"); ?>
 	<!--Servicios-->
 	<?php include("templates/servicios.php"); ?>
+	<!--Contador-->
+	<?php include("templates/contador.php"); ?>
+	<!--Videos de Youtube-->
+	<?php include("templates/videos.php"); ?>
+	<!--Zonas de coberturas-->
+	<?php include("templates/zonas.php"); ?>
+	<!--Contacto-->
+	<?php include("templates/contacto.php"); ?>
+	<!--Footer-->
+	<?php include("templates/footer.php"); ?>
 	
 	
 
 
 	<!--Enlaces JS-->
+	<!--Genera iconos en la sección de servicios-->
+    <script src="js/iconos-servicios.js"></script>
+	<!--Script para hacer un acordeon en la sección de servicios-->
     <script src="js/servicios.js"></script>
+	<!--Script para eliminar texto inecesario en la sección de servicios-->
+    <script src="js/deleteText.js"></script>
+	<!--Script para ejecutar las funciones cuando se hace un cambio de tamaño en la pantalla-->
+    <script src="js/pantalla.js"></script>
 </body>

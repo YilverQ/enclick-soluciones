@@ -9,7 +9,7 @@
 		</label>
 
 		<!-- Imagen Principal/Logo De La Empresa/Se puede cambiar la imagen -->
-		<a href="/"><img src="images/logo.png" alt="Logo Tu Suministro"/></a>
+		<a href="/"><img src="images/logo.png" alt="Logo Enclick Soluciones"/></a>
 
 		<!-- Menú/NAV -->
 		<ul class="menu">

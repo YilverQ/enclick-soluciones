@@ -1,0 +1,90 @@
+/*Importar Estilos*/
+@import url("template.css");
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+/*Footer*/
+footer{
+  background: rgba(0, 0, 0, .2);
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.copyright{
+  display: flex;
+}
+.copyright p:nth-child(2){
+  margin-left: 5px;
+}
+.copyright p{
+  font-size: 12px;
+}
+
+.derechos ul{
+  display: flex;
+}
+.derechos li{
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 8px;
+}
+.derechos li:nth-child(1),
+.derechos li:nth-child(2){
+  border-right: 1px solid #2d3436;
+}
+
+/*Media query*/
+@media (max-width: 400px){
+  .titleZonas .letraIZonas{
+    font-size: 20px;
+
+  }
+  .titleZonas h3{
+    font-size: 24px;
+  }
+}
+@media (max-width: 914px){
+  .derechos li{
+    padding: 0 4px;
+  }
+  .footer{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+  }
+  .copyright{
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px){
+  .footer{
+    width: 95%;
+  }
+  .derechos li:nth-child(1),
+  .derechos li:nth-child(2){
+    border-right: 1px solid transparent;
+  }
+  .derechos ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .derechos li{
+    margin: 0;
+    padding: 0;
+  }
+}

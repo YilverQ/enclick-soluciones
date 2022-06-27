@@ -1,0 +1,121 @@
+/*Importar Estilos*/
+@import url("template.css");
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+/*Contacto*/
+.contacto{
+  width: 100%;
+  padding: 100px 0;
+}
+.titleContacto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacto h3{
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+}
+.contacto .letraIContacto{
+  font-size: 28px;
+  padding: 10px;
+  background: var(--color-yellow);
+  border-radius: 2px;
+}
+/*Letras Inicio Zonas*/
+
+/*Otros estilos*/
+.contactoInfo{
+  margin-top: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.textoContacto{
+  width: 400px;
+  padding: 20px 10px;
+}
+.textoContacto h4{
+  font-size: 25px;
+  padding: 10px;
+}
+.textoContacto p{
+  padding: 10px;
+}
+.textoContacto .enlaces{
+  display: flex;
+}
+.textoContacto .enlaces p{
+  font-size: 25px;
+}
+.textoContacto .enlaces p:nth-child(1) a{color: var(--color-blue);}
+.textoContacto .enlaces p:nth-child(2) a{color: #e1306c;}
+.textoContacto .enlaces p:nth-child(3) a{color: var(--color-blue);}
+.textoContacto .enlaces p:nth-child(4) a{color: var(--color-green);}
+.textoContacto .enlaces p:nth-child(5) a{color: red;}
+
+.imagenContacto{
+  width: 400px;
+  overflow: hidden;
+}
+.correo{
+  display: flex;
+  align-items: center;
+}
+.imagenContacto img{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+.textoContacto .emailP{
+  font-size: 12px;
+}
+
+/*Métodos de pagos*/
+.alianzas .metodo{
+  width: 60px;
+  height: 60px;
+  margin: 0 8px;
+}
+.alianzas .metodo img{
+  object-fit: contain;
+  width: 60px;
+  height: 60px;
+}
+/*Media query*/
+@media (max-width: 400px){
+  .titleContacto .letraIContacto{
+    font-size: 20px;
+
+  }
+  .titleContacto h3{
+    font-size: 24px;
+  }
+}
+@media (max-width: 400px){
+  .formulario{
+    width: 90%;
+    margin: auto;
+  }
+  .wrapper{
+    width: 100%;
+  }
+}
+@media (max-width: 800px){
+  .metodoPago{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

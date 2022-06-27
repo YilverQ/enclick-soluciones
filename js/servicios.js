@@ -8,8 +8,10 @@ h4.forEach( (cadaH4, i) => {
 	h4[i].addEventListener("click", ()=>{
 		bloque.forEach( (cadaBloque, i) =>{
 			bloqueInfo[i].classList.remove("activo");
+			bloque[i].classList.remove("activo");
 		})
 		//Se le añade 1 porque el primer elemento no es iterable una vez se hace click en los h4.
-		bloqueInfo[i+1].classList.add("activo");
+		bloqueInfo[i].classList.add("activo");
+		bloque[i].classList.add("activo");
 	})
 })

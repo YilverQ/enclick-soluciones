@@ -32,8 +32,9 @@
   text-align: center;
   padding: 10px;
 }
-.alianzasContainer h3{
-  font-size: 25px;
+.alianzasContainer .titleMePersonal h3{
+  font-family: fuente2;
+  font-size: 18px;
 }
 .mePersonal .letraIEquipo{
   font-size: 28px;
@@ -65,7 +66,14 @@
   width: 180px;
   height: 180px;
   border-radius: 100%;
+  padding: 5px;
+  border: 2px solid var(--color-green);
 }
+.tarjeta:nth-child(1) img{border: 2px solid var(--color-green);}
+.tarjeta:nth-child(2) img{border: 2px solid var(--color-yellow);}
+.tarjeta:nth-child(3) img{border: 2px solid var(--color-blue);}
+.tarjeta:nth-child(4) img{border: 2px solid var(--color-green);}
+
 .tarjeta h4{
   text-align: center;
   font-size: 20px;
@@ -81,6 +89,9 @@
 .tarjeta:nth-child(3) h4{
   border-bottom: 2px solid var(--color-blue);
 }
+.tarjeta:nth-child(4) h4{
+  border-bottom: 2px solid var(--color-green);
+}
 .tarjeta p{
   margin-top:5px;
   font-size: 14px;
@@ -93,27 +104,29 @@
   margin: 5px 10px;
   font-size: 25px;
 }
+.tarjeta .botonesRedes a:nth-child(1){color: #e1306c;}
+.tarjeta .botonesRedes a:nth-child(2){color: var(--color-blue) ;}
+.tarjeta .botonesRedes a:nth-child(3){color: var(--color-green);}
 /*FIN DEL Personal*/
 
 /*Alianzas*/
 .alianzasContainer{
-  height: 200px;
+  height: 150px;
   display: flex;
   flex-flow: nowrap column;
   justify-content: center;
+  margin: 10px 0;
 }
 .alianzas{
   display: flex;
   flex-flow: nowrap row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 0 200px;
 }
 .alianzas .equipo{
   width: 80px;
   height: 80px;
-  background: lightblue;
-  margin: 10px 30px;
+  margin: 0 10px;
 }
 .alianzas .equipo img{
   object-fit: cover;
@@ -128,19 +141,13 @@
 /*FIN DE las alianzas*/
 
 
-/*Media Query*/
+/*Media Query Tarjetas*/
 @media (max-width: 1180px){
   .tarjeta{
     margin: 10px 60px;
   } 
   .ContenedorTarjetas{
     justify-content: center;
-  }
-  .alianzas{
-    padding: 0 0;
-  }
-  .alianzas .equipo{
-    margin: 10px 10px;
   }
 }
 
@@ -157,19 +164,10 @@
     padding: 0px;
   }
 }
-@media (max-width: 700px){
-  .alianzas{
-      flex-flow: wrap row;
-    }
-    .alianzasContainer h3{
-      margin-top: 100px;
-    }
-}
 @media (max-width: 400px){
  .tarjeta{
    width: 200px;
   }
-
   .tarjeta img{
     width: 120px;
     height: 120px;
@@ -180,19 +178,24 @@
   .mePersonal h3{
     font-size: 24px;
   }
-  .alianzasContainer h3{
-    font-size: 20px;
-  }
   .mePersonal .letraIEquipo{
     font-size: 20px;
   }
-  .alianzasContainer h3{
-    margin-top: 0;
-  } 
+}
+/*FIN DE LOS Media Query*/
+
+/*Media query, Alianzas*/
+@media (max-width: 700px){
+  .alianzas{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+  }
   .alianzasContainer{
-    height: 400px;
+    height: auto;
+  }
+  .alianzas .equipo{
+    margin: 10px 10px;
   }
 }
-
-
-/*FIN DE LOS Media Query*/
