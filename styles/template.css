@@ -1,4 +1,4 @@
-/*Para Todo*/
+/*Estilos para todos los elementos*/
 * {
   padding: 0;
   margin: 0;
@@ -6,9 +6,10 @@
 }
 a{text-decoration: none;}
 li{list-style: none;}
-/*Fin Para Todo*/
+/*Fin de los estilos que aplican para todos los elementos*/
 
-/*Fuentes*/
+
+/*Importamos las fuentes que usará nuestra página*/
 @font-face{
     font-family: fuente1;
     src: url(../fonts/Comfortaa-Bold.ttf); 
@@ -45,7 +46,7 @@ li{list-style: none;}
 /*FIN de las Customs Propities*/
 
 
-/*Estructura*/
+/*Estilos para los elementos principales*/
 html {
   scroll-behavior: smooth;
 }
@@ -56,11 +57,12 @@ p, li, a{
   font-family: fuente2;
   color:#2d3436;
 }
-/*Fin de la Estructura*/
+/*Fin de los estilos principales*/
 
 
 /*KEYFRAMES*/
 @keyframes moverIzquierda{
+    /*Animación de izquiera a derecha*/
     0%{
         opacity: 0;
         transform: translateX(-100px);
@@ -71,6 +73,7 @@ p, li, a{
     }
 }
 @keyframes moverDerecha{
+    /*Animación de derecha a izquierda*/
     0%{
         opacity: 0;
         transform: translateX(100px);
@@ -82,6 +85,7 @@ p, li, a{
 }
 
 @keyframes moverArriba{
+    /*Animación de abajo a arriba*/
     0%{
         opacity: 0;
         transform: translateY(100px);
@@ -92,6 +96,7 @@ p, li, a{
     }
 }
 @keyframes moverAbajo{
+    /*Animación de arriba a abajo*/
     0%{
         opacity: 0;
         transform: translateY(-100px);
@@ -102,6 +107,7 @@ p, li, a{
     }
 }
 @keyframes desvanecer{
+    /*Animación para manifestar un elemento que se encuentra oculto*/
     0%{
         opacity: 0;
     }

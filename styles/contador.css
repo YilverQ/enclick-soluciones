@@ -12,20 +12,24 @@
   --color-black: #000000;
   --color-gray2: #b4b3a9;
 */
-
+/*Estilos Principales*/
 .contador{
-  display: flex; 
+  margin: auto;
+  width: 80%;
+  padding-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
-  padding: 10px 0;
 }
 .contador .content{
   display: flex;
   align-items: center;
+  width: 200px;
 }
 .contador .content img{
   padding: 5px;
   object-fit: contain;
-  width: 80px;
+  width: 60px;
   margin-right: 5px;
 }
 .contador .content .num{
@@ -33,23 +37,7 @@
   color: var(--color-blue);
   font-weight: 700;
 }
-/*Media query, Alianzas*/
-@media (max-width: 1047px){
-  .contador .content .num{
-    text-align: left;
-  } 
-}
-@media (max-width: 750px){
-  .contador{
-    flex-flow: row wrap;
-  } 
-  .contador .content .num{
-    text-align: center;
-  } 
-  .contador .content img{
-    width: 100px;
-  }
-  .contador .content{
-    margin-top: 5px;
-  }
+.contador .content .descripcionNumero{
+  text-align: center;
+  font-size: 14px;
 }

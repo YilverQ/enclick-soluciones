@@ -6,6 +6,6 @@
 			<a href="https://sumerlabs.com/catalogo/enclick-soluciones" target="_blank">Ver tienda</a>
 		</div>
 		<div class="contenedorImage">
-			<img src="images/header-main.jpg">
+			<img src="images/enclick-soluciones.gif" alt="Enclick Soluciones">
 		</div>
 	</header>

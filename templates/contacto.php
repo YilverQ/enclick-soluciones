@@ -1,7 +1,7 @@
 	<div class="contacto" id="contacto">
-		<div class="titleContacto">
-			<div class="letraIContacto"><i class="fa-regular fa-message"></i></div>
-			<h3>Contacto.</h3>
+		<div class="blockTitle">
+			<div class="letraIicon"><i class="<?php echo $blocks[4][0] ?>"></i></div>
+			<h3><?php echo $blocks[4][1] ?></h3>
 		</div>
 		<div class="contactoInfo">
 			<div class="textoContacto">
@@ -19,25 +19,9 @@
 				</div>
 			</div>
 			<div class="imagenContacto">
-				<img src="../images/contacto/contacto.jpg">
-			</div>
-
-			<div class="alianzasContainer">
-				<div class="titleMePersonal">
-					<h3 id="clientes">Aceptamos</h3>
-				</div>
-				<div class="alianzas metodoPago">
-					<div class="metodo"><p><img src="../images/contacto/zelle.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/venezuela.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/paypal.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/efectivo.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/bitcoin.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/binance.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/bbva.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/zinli.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/movil.png"></i></p></div>
-					<div class="metodo"><p><img src="../images/contacto/banesco.png"></i></p></div>
-				</div>
+				<img src="../images/contacto/mujer-contacto.jpg" alt="Contactar a empresas de telecomunicaciones">
 			</div>
 		</div>
+		<!--Iconos de las formas de pagos con las que trabajamos-->
+		<?php include("templates/iconsEnterprises_formas_pagos.php"); ?>
 	</div>

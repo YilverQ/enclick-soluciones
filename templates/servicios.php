@@ -1,7 +1,7 @@
 	<div class="ourServices" id="servicios">
-		<div class="titleMePersonal">
-			<div class="letraIServicio"><i class="fa-solid fa-boxes-stacked"></i></div>
-			<h3>Servicios.</h3>
+		<div class="blockTitle">
+			<div class="letraIicon"><i class="<?php echo $blocks[2][0] ?>"></i></div>
+			<h3><?php echo $blocks[2][1] ?></h3>
 		</div>
 		<div class="allServices">
 			<div class="acordeon">

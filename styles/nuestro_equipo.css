@@ -22,28 +22,9 @@
   background: #3f3f3f3f;
   padding: 100px 0;
 }
-.titleMePersonal{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.mePersonal h3{
-  font-size: 32px;
-  text-align: center;
-  padding: 10px;
-}
-.alianzasContainer .titleMePersonal h3{
-  font-family: fuente2;
-  font-size: 18px;
-}
-.mePersonal .letraIEquipo{
-  font-size: 28px;
-  padding: 10px;
-  background: var(--color-yellow);
-  border-radius: 2px;
-}
 .ContenedorTarjetas{
-  width: 100%;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-flow: wrap row;
   justify-content: space-around;
@@ -51,20 +32,20 @@
   padding: 50px;
 }
 .tarjeta{
- width: 260px;
+ width: 240px;
  background: white;
  display: flex;
  flex-flow: nowrap column;
  justify-content: center;
  align-items: center;
  padding: 10px 0;
- border-radius: 4px;
- box-shadow: 1px 1px 10px rgba(10, 10, 10, .5);
+ border-radius: 2px;
+  box-shadow:  0 1px 2px 0 rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
 }
 .tarjeta img{
   object-fit: cover;
-  width: 180px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   border-radius: 100%;
   padding: 5px;
   border: 2px solid var(--color-green);
@@ -109,40 +90,9 @@
 .tarjeta .botonesRedes a:nth-child(3){color: var(--color-green);}
 /*FIN DEL Personal*/
 
-/*Alianzas*/
-.alianzasContainer{
-  height: 150px;
-  display: flex;
-  flex-flow: nowrap column;
-  justify-content: center;
-  margin: 10px 0;
-}
-.alianzas{
-  display: flex;
-  flex-flow: nowrap row;
-  justify-content: center;
-  align-items: center;
-}
-.alianzas .equipo{
-  width: 80px;
-  height: 80px;
-  margin: 0 10px;
-}
-.alianzas .equipo img{
-  object-fit: cover;
-  width: 80px;
-  height: 80px;
-  filter: grayscale(1);
-  border-radius: 4px;
-}
-.alianzas .equipo img:hover{
-  filter: grayscale(0);
-}
-/*FIN DE las alianzas*/
-
 
 /*Media Query Tarjetas*/
-@media (max-width: 1180px){
+@media (max-width: 1350px){
   .tarjeta{
     margin: 10px 60px;
   } 
@@ -150,52 +100,15 @@
     justify-content: center;
   }
 }
-
-@media (max-width: 860px){
+/*Media Query Tarjetas*/
+@media (max-width: 1350px){
   .tarjeta{
     margin: 10px 10px;
-  } 
-}
-@media (max-width: 860px){
-  .tarjeta{
-    margin: 10px 10px;
-  } 
-  .ContenedorTarjetas{
-    padding: 0px;
   }
 }
 @media (max-width: 400px){
- .tarjeta{
-   width: 200px;
-  }
-  .tarjeta img{
-    width: 120px;
-    height: 120px;
-  }
-  .tarjeta h4{
-    font-size: 17px;
-  }
-  .mePersonal h3{
-    font-size: 24px;
-  }
-  .mePersonal .letraIEquipo{
-    font-size: 20px;
+  .tarjeta{
+    padding: 10px 20px 10px 20px;
   }
 }
 /*FIN DE LOS Media Query*/
-
-/*Media query, Alianzas*/
-@media (max-width: 700px){
-  .alianzas{
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    align-items: center;
-  }
-  .alianzasContainer{
-    height: auto;
-  }
-  .alianzas .equipo{
-    margin: 10px 10px;
-  }
-}

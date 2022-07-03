@@ -14,21 +14,22 @@
 */
 
 .videos-youtube{
+  width: 90%;
+  margin: auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 20px 0;
+  justify-content: center;
 }
 .videos-youtube .content{
   display: flex;
   background: lightcyan;
-  width: 600px;
+  width: 500px;
   margin: 10px;
   border-radius: 5px;
 }
 .videos-youtube .content img{
   object-fit: contain;
-  width: 370px;
+  width: 340px;
   height: 250px;
   margin-right: 5px;
 }

@@ -1,10 +1,10 @@
 <?php //pass ?>
 <div class="quienesSomos" id="quienes_somos">
+	<div class="blockTitle">
+		<div class="letraIicon"><i class="<?php echo $blocks[0][0] ?>"></i></div>
+		<h3><?php echo $blocks[0][1] ?></h3>
+	</div>
 	<div class="quienSomosCentral">
-		<div class="titleQuienesSomos">
-			<div class="letraIEquipo"><i class="fa-solid fa-magnifying-glass"></i></div>
-			<h2>¿Quiénes Somos?</h2>
-		</div>
 		<p>Somos tu solución en un click. Nos encargamos en brindarte el mejor servicio en material de empresas y tecnología con un personal amplio y especializado teniendo como pilar la calidad en todos los sentidos.</p>
 	</div>
 	<div class="misionVision">

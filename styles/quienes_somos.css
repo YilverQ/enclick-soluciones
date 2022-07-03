@@ -19,30 +19,8 @@
 /*Quienes Somos*/
 .quienesSomos{
   width: 100%;
-  /*background: var(--color-white);*/
   padding: 100px 0;
   border-top: 2px solid rgba(10, 10, 10, .1);
-}
-.quienSomosCentral{
-  display: flex;
-  flex-flow: nowrap column;
-  justify-content: center;
-}
-.quienSomosCentral h2{
-  text-align: center;
-  font-size: 32px;
-  padding: 10px;
-}
-.titleQuienesSomos{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.titleQuienesSomos .letraIEquipo{
-  font-size: 28px;
-  padding: 10px;
-  background: var(--color-green);
-  border-radius: 2px;
 }
 .quienSomosCentral p{
   padding: 50px;
@@ -107,30 +85,8 @@
       width: 80%;
     }
 }
-
 @media (max-width: 550px){
   .bloqueMisionVision img{
     width: 90%;
   } 
-}
-
-@media (max-width: 400px){
-.tarjeta h4{
-  font-size: 17px;
-  }
-  .mePersonal h3{
-    font-size: 24px;
-  }
-  .alianzasContainer h3{
-    font-size: 20px;
-  }
-  .mePersonal .letraIEquipo{
-    font-size: 20px;
-  }
-  .quienSomosCentral h2{
-    font-size: 20px;
-  }
-  .titleQuienesSomos .letraIEquipo{
-    font-size: 20px;
-  }
 }

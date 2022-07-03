@@ -22,17 +22,6 @@
   justify-content: center;
   align-items: center;
 }
-.contacto h3{
-  font-size: 32px;
-  text-align: center;
-  padding: 10px;
-}
-.contacto .letraIContacto{
-  font-size: 28px;
-  padding: 10px;
-  background: var(--color-yellow);
-  border-radius: 2px;
-}
 /*Letras Inicio Zonas*/
 
 /*Otros estilos*/
@@ -81,41 +70,4 @@
 }
 .textoContacto .emailP{
   font-size: 12px;
-}
-
-/*Métodos de pagos*/
-.alianzas .metodo{
-  width: 60px;
-  height: 60px;
-  margin: 0 8px;
-}
-.alianzas .metodo img{
-  object-fit: contain;
-  width: 60px;
-  height: 60px;
-}
-/*Media query*/
-@media (max-width: 400px){
-  .titleContacto .letraIContacto{
-    font-size: 20px;
-
-  }
-  .titleContacto h3{
-    font-size: 24px;
-  }
-}
-@media (max-width: 400px){
-  .formulario{
-    width: 90%;
-    margin: auto;
-  }
-  .wrapper{
-    width: 100%;
-  }
-}
-@media (max-width: 800px){
-  .metodoPago{
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
