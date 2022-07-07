@@ -8,7 +8,7 @@
 				<ul>
 					<li><a href="#" rel="nofollow">Politicas de privacidad</a></li>
 					<li><a href="#" rel="nofollow">Políticas de Cookies</a></li>
-					<li><a href="#" rel="nofollow">Términos y condiciones</a></li>
+					<li><a href="#" rel="nofollow">Aviso legal</a></li>
 				</ul>
 			</div>
 		</div>

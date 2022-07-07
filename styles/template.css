@@ -11,16 +11,8 @@ li{list-style: none;}
 
 /*Importamos las fuentes que usará nuestra página*/
 @font-face{
-    font-family: fuente1;
-    src: url(../fonts/Comfortaa-Bold.ttf); 
-}
-@font-face{
     font-family: fuente2;
     src: url(../fonts/Comfortaa-Regular.ttf); 
-}
-@font-face{
-    font-family: fuente3;
-    src: url(../fonts/Merriweather-Regular.ttf); 
 }
 @font-face{
     font-family: fuente4;
@@ -52,9 +44,11 @@ html {
 }
 h1, h2, h3, h4{
   font-family: fuente4;
+  font-display: fallback;
 }
 p, li, a{
   font-family: fuente2;
+  font-display: fallback;
   color:#2d3436;
 }
 /*Fin de los estilos principales*/

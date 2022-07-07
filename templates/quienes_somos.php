@@ -9,7 +9,7 @@
 	</div>
 	<div class="misionVision">
 		<div class="bloqueMisionVision">
-			<img src="/images/misionVision/mision.jpg" alt="mision de empresa tecnológica">
+			<img src="/images/misionVision/mision.webp" alt="mision de empresa tecnológica">
 			<div class="contenido">
 				<h3>Nuestra misión</h3>
 				<p>Ofrecer servicios con las tecnologías más innovadoras de acuerdo con las necesidades de cada cliente, con el objetivo de máximizar su competitividad y productividad utilizando soluciones prácticas y eficientes.</p>
@@ -17,7 +17,7 @@
 		</div>
 		<div class="linea"></div>
 		<div class="bloqueMisionVision">
-			<img src="/images/misionVision/vision.jpg" alt="visión de empresa tecnológica">
+			<img src="/images/misionVision/vision.webp" alt="visión de empresa tecnológica">
 			<div class="contenido">
 				<h3>Nuestra visión</h3>
 				<p>Posicionarnos como una empresa de servicios de calidad, excelencia e integralidad, como un aliado comercial estratégico aportando valor en nuestros productos y servicios de manera satisfactoria.</p>

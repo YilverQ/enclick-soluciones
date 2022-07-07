@@ -1,67 +1,67 @@
 		<div class="iconsEnterprises">
 		<div class="titleMePersonal">
-			<h3 id="clientes">Tecnologías con las que trabajamos</h3>
+			<h3 id="clientes">Empresas con las que trabajamos</h3>
 		</div>
 		<div class="iconsContainer">
 			<div class="icon_element">
-				<p><img src="images/alianzas/amd.png" alt="logo amd"></p>
+				<p><img src="images/alianzas/amd.webp" alt="logo amd"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/benq.png" alt="logo benq"></p>
+				<p><img src="images/alianzas/benq.webp" alt="logo benq"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/cisco.png" alt="logo cisco"></p>
+				<p><img src="images/alianzas/cisco.webp" alt="logo cisco"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/intel.png" alt="logo intel"></p>
+				<p><img src="images/alianzas/intel.webp" alt="logo intel"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/kingstone.png" alt="logo kingstone"></p>
+				<p><img src="images/alianzas/kingstone.webp" alt="logo kingstone"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/lenovo.png" alt="logo lenovo"></p>
+				<p><img src="images/alianzas/lenovo.webp" alt="logo lenovo"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/linksys.png" alt="logo linksys"></p>
+				<p><img src="images/alianzas/linksys.webp" alt="logo linksys"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/microsoft.png" alt="logo microsoft"></p>
+				<p><img src="images/alianzas/microsoft.webp" alt="logo microsoft"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/mikrotik.png" alt="logo mikrotik"></p>
+				<p><img src="images/alianzas/mikrotik.webp" alt="logo mikrotik"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/nvidia.png" alt="logo nvidia"></p>
+				<p><img src="images/alianzas/nvidia.webp" alt="logo nvidia"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/oracle.png" alt="logo oracle"></p>
+				<p><img src="images/alianzas/oracle.webp" alt="logo oracle"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/samsung.png" alt="logo samsung.png"></p>
+				<p><img src="images/alianzas/samsung.webp" alt="logo samsung"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/sandisk.png" alt="logo sandisk"></p>
+				<p><img src="images/alianzas/sandisk.webp" alt="logo sandisk"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/symantec.png" alt="logo symantec"></p>
+				<p><img src="images/alianzas/symantec.webp" alt="logo symantec"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/hp.png" alt="logo hp"></p>
+				<p><img src="images/alianzas/hp.webp" alt="logo hp"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/toshiba.png" alt="logo toshiba"></p>
+				<p><img src="images/alianzas/toshiba.webp" alt="logo toshiba"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/tp-link.png" alt="logo tp-link"></p>
+				<p><img src="images/alianzas/tp-link.webp" alt="logo tp-link"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/dell.png" alt="logo dell"></p>
+				<p><img src="images/alianzas/dell.webp" alt="logo dell"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/ubiquiti.png" alt="logo ubiquiti"></p>
+				<p><img src="images/alianzas/ubiquiti.webp" alt="logo ubiquiti"></p>
 			</div>
 			<div class="icon_element">
-				<p><img src="images/alianzas/wester-digital.png" alt="logo wester digital"></p>
+				<p><img src="images/alianzas/wester-digital.webp" alt="logo wester digital"></p>
 			</div>
 		</div>
 		</div>

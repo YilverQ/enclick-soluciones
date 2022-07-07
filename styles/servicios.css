@@ -24,6 +24,7 @@
   padding-bottom: 0;
 }
 .titleMePersonal{
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +65,7 @@
 }
 .contentService{
   width: 100%;
-  height: 450px;
+  height: 500px;
   overflow: hidden;
   padding: 10px 20px;
 }
@@ -102,7 +103,7 @@
 }
 .bloqueInfo .division{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
 }
@@ -126,26 +127,15 @@
 .listaServicios{
   display: block;
 }
-.listaServicios.activo{
-  display: none;
-}
 /*FIN del bloque bloqueInfo*/
 
 /*Media de los botones del acordeon*/
-@media (max-width: 800px){
+@media (max-width: 930px){
   .acordeon{
     width: 60px;
   }
 }
-
-
-/*Media del bloque de información*/
-@media (max-width: 918px){
-  .bloqueInfo .division{
-    flex-flow: row nowrap;
-  }
-}
-@media (max-width: 800px){
+@media (max-width: 930px){
   .contentService{
     height: 500px;
     padding: 10px 20px;
@@ -159,8 +149,7 @@
     font-size: 14px;
   }
 }
-
-@media (max-width: 650px){
+@media (max-width: 690px){
   .bloqueInfo .division{
     display: flex;
     flex-flow: column-reverse nowrap;
@@ -168,13 +157,20 @@
   .division img{margin-right: 0;}
   .division ul{padding: 10px 0; margin-left: 0;}
   .bloqueInfo p{padding-top: 18px;}
-}
-
-@media (max-width: 450px){
+  .contentService{height: 650px;padding: 10px 20px;}
   .bloqueInfo p strong{
     font-size: 14px;
   }
+  .division ul li{
+    width: 300px;
+  }
+}
+
+@media (max-width: 530px){
   .contentService{height: 750px;padding: 10px 20px;}
+  .division ul li{
+    width: 200px;
+  }
 }
 
 

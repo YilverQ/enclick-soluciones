@@ -20,6 +20,7 @@ header{
   display: flex;
   justify-content: center;
   justify-items: center;
+  align-items: center;
   background: var(--color-white);
 }
 .infoHeader{
@@ -54,9 +55,7 @@ header{
 }
 .contenedorImage{
   width: 500px;
-  height: 700px;
-  display: flex;
-  align-items: center;
+  margin-left: 50px;
 }
 .contenedorImage img{
   object-fit: contain;
@@ -66,14 +65,14 @@ header{
 
 @media (max-width: 1050px){
     .infoHeader{
+      padding-top: 50px;
       width: 400px;
-    }
-    .contenedorImage{
-      width: 400px;
+      height: 500px;
+      justify-content: center;
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 960px){
     header{
       flex-flow: nowrap column-reverse;
       align-items: center;

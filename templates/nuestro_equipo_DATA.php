@@ -7,7 +7,7 @@
 	$encli = array( "Nombre"=>"Encli Velasquez", 
 					"Cargo"=>"Director ejecutivo",
 					"Social"=> $social_Encli,
-					"Imagen"=> "encli-velasquez.png");
+					"Imagen"=> "encli-velasquez.webp");
 	
 	$social_Gustavo = ["Facebook"=>"https://www.facebook.com/gustavo.ponce2",
 					 "Instagram"=>"https://www.instagram.com/gustavoponce206",
@@ -15,7 +15,7 @@
 	$gustavo = array("Nombre"=>"Gustavo Ponce", 
 					"Cargo"=>"Gerente de ventas",
 					"Social"=> $social_Gustavo,
-					"Imagen"=> "gustavo-ponce.png");
+					"Imagen"=> "gustavo-ponce.webp");
 
 	$social_Yilver = ["Facebook"=>"https://www.facebook.com/yilver0906",
 					 "Instagram"=>"https://instagram.com/yilver_quevedo",
@@ -23,7 +23,7 @@
 	$yilver = array("Nombre"=>"Yilver Quevedo", 
 					"Cargo"=>"Desarrollador web",
 					"Social"=> $social_Yilver,
-					"Imagen"=> "yilver-quevedo.png");
+					"Imagen"=> "yilver-quevedo.webp");
 
 	$social_Anabel = ["Facebook"=>"https://www.facebook.com/lopezaraque",
 					 "Instagram"=>"https://www.instagram.com/jelitalpz7",
@@ -31,7 +31,7 @@
 	$anabel = array("Nombre"=>"Anabel López", 
 					"Cargo"=>"Social media",
 					"Social"=> $social_Anabel,
-					"Imagen"=> "anabel-lopez.png");
+					"Imagen"=> "anabel-lopez.webp");
 
 	//Array
 	$meTeam[0] = $encli;

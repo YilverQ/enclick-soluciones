@@ -15,22 +15,8 @@ Task List:
 	Footer.
 	Politicas y privacidad.
 
-
 Hacer para la web.
-	//Poner más contenido en texto?
 	//Crear páginas de politicas y privacidad.
-	// Renderizar imagenes.
-
-
-
-Imagenes:
-	Logo: 120x65
-	Header-main:500x700
-	Mision: 500x412
-	Vision: 500x440
-	Imagenes de nuestros equipo: 160x160
-	Tecnologías con las que trabajamos: 60x60
-	Servicios: 350x250
-	Los numeros no mienten: 60x60
-	Contacto: 400x400
-	Formas de pago: 60x60
+	//Usar imagen-mapa
+	//Hacer un CTA para descargar archivo PDF. // LOW.
+	//agregar espacios en mision y vision. #aplicar al texto titulo

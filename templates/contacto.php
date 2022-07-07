@@ -15,11 +15,11 @@
 					<p><a href="https://youtube.com/c/Enclip1992" target="_blank"><i class="fa-brands fa-youtube"></i></a></p>
 				</div>
 				<div class="correo">
-					<p class="emailP">enclicksoluciones@gmail.com</p>
+					<img src="../images/contacto/gmail.webp">
 				</div>
 			</div>
 			<div class="imagenContacto">
-				<img src="../images/contacto/mujer-contacto.jpg" alt="Contactar a empresas de telecomunicaciones">
+				<img src="../images/contacto/formas-de-contacto.webp" alt="Contactar a empresas de telecomunicaciones">
 			</div>
 		</div>
 		<!--Iconos de las formas de pagos con las que trabajamos-->

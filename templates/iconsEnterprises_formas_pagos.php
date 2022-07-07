@@ -4,25 +4,25 @@
 				</div>
 				<div class="iconsContainer">
 					<div class="icon_element">
-						<p><img src="../images/contacto/zelle.png" alt="logo zelle"></p>
+						<p><img src="../images/contacto/zelle.webp" alt="logo zelle"></p>
 					</div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/venezuela.png" alt="logo bando de venezuela"></p>
+						<p><img src="../images/contacto/venezuela.webp" alt="logo bando de venezuela"></p>
 					</div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/paypal.png" alt="logo paypal"></p>
+						<p><img src="../images/contacto/paypal.webp" alt="logo paypal"></p>
 					</div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/efectivo.png" alt="logo de pago en efectivo">
+						<p><img src="../images/contacto/efectivo.webp" alt="logo de pago en efectivo">
 						</p></div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/bitcoin.png" alt="logo bitcoin"></p>
+						<p><img src="../images/contacto/bitcoin.webp" alt="logo bitcoin"></p>
 					</div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/binance.png" alt="logo binance"></p>
+						<p><img src="../images/contacto/binance.webp" alt="logo binance"></p>
 					</div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/bbva.png" alt="logo del bando bbva"></p>
+						<p><img src="../images/contacto/bbva.webp" alt="logo del bando bbva"></p>
 					</div>
 					<div class="icon_element">
 						<p><img src="../images/contacto/zinli.png" alt="logo zinli"></p>
@@ -31,7 +31,7 @@
 						<p><img src="../images/contacto/movil.png" alt="logo de pago movil"></p>
 					</div>
 					<div class="icon_element">
-						<p><img src="../images/contacto/banesco.png" alt="logo del banco banesco"></p>
+						<p><img src="../images/contacto/banesco.webp" alt="logo del banco banesco"></p>
 					</div>
 				</div>
 			</div>
