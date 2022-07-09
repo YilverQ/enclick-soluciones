@@ -20,3 +20,9 @@ Hacer para la web.
 	//Usar imagen-mapa
 	//Hacer un CTA para descargar archivo PDF. // LOW.
 	//agregar espacios en mision y vision. #aplicar al texto titulo
+
+
+Aprender CSS:
+	Flexbox: Mejorar 100%.
+	background-blend-mode: ; // Que es.
+	clippad.

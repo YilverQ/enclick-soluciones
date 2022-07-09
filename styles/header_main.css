@@ -32,9 +32,8 @@ header{
 }
 .infoHeader p.nota{
   font-size: 14px;
-  margin: 10px 0;
 }
-.infoHeader h2{
+.infoHeader h1{
   font-family: fuente4;
   font-size: 50px;
   margin-bottom: 20px;

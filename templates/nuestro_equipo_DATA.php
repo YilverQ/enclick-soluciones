@@ -2,7 +2,7 @@
 
 	//Datos De Mi Equipo.
 	$social_Encli = ["Facebook"=>"https://www.facebook.com/encliemprendedor",
-					 "Instagram"=>"https://instagram.com/encli_anderson",
+					 "Instagram"=>"https://bit.ly/3bQTSIY",
 					 "Whatsapp"=>"https://wa.link/aniliu"];
 	$encli = array( "Nombre"=>"Encli Velasquez", 
 					"Cargo"=>"Director ejecutivo",
@@ -18,7 +18,7 @@
 					"Imagen"=> "gustavo-ponce.webp");
 
 	$social_Yilver = ["Facebook"=>"https://www.facebook.com/yilver0906",
-					 "Instagram"=>"https://instagram.com/yilver_quevedo",
+					 "Instagram"=>"https://bit.ly/3AFr1BQ",
 					 "Whatsapp"=>"https://walink.co/1c5220"];
 	$yilver = array("Nombre"=>"Yilver Quevedo", 
 					"Cargo"=>"Desarrollador web",

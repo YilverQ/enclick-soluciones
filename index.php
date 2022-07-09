@@ -6,8 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="Yilver Quevedo De Inforver">
 	<meta name="description" content="Enclick Soluciones, una empresa dedicada a la solución de los problemas más frecuentes del área tecnológica.">
-	<meta name="keywords" content="Enclick Soluciones, Solucion, Soluciones empresariales, tu empresa, para tu empresa, Enclick, Encli, Gustavo Ponce.">
+	<meta name="keywords" content="Enclick Soluciones, Solucion, Soluciones empresariales, para tu empresa, Enclick, Encli">
 	<meta name="robots" content="index, follow">
+	<meta name="theme-color" content="#179c52">
 
 	<!--Title-->
 	<title>Enclick Soluciones - Inicio</title>
@@ -17,9 +18,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 	
 	<!--Icono de la web // Favicon-->
-	<link href="images/favicon.png" rel="icon" type="image/png"/>
-	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
-	
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />	
 	<!--Importamos los iconos de FontAwesome-->
     <script src="js/all.min.js"></script>
 </head>

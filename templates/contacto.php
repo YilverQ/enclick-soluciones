@@ -8,14 +8,14 @@
 				<h4>¡No esperes más! Ponte en contacto con nosotros y goza de todos nuestros servicios.</h4>
 				<p>Sabemos que el mundo está cambiando y estamos aquí para ayudarte. Descubre las nuevas tecnologías y disfruta de ellas.</p>
 				<div class="enlaces">
-					<p><a href="https://www.facebook.com/Enclicksoluciones" target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
-					<p><a href="https://www.instagram.com/enclicksoluciones/" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+					<p><a href="https://bit.ly/3yUIwwT" target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+					<p><a href="https://bit.ly/3NW0jHW" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
 					<p><a href="https://t.me/enclicksoluciones" target="_blank"><i class="fa-brands fa-telegram"></i></a></p>
 					<p><a href="https://wa.link/qokz4n" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></p>
-					<p><a href="https://youtube.com/c/Enclip1992" target="_blank"><i class="fa-brands fa-youtube"></i></a></p>
+					<p><a href="https://bit.ly/3nR9SgQ" target="_blank"><i class="fa-brands fa-youtube"></i></a></p>
 				</div>
 				<div class="correo">
-					<img src="../images/contacto/gmail.webp">
+					<img src="../images/contacto/gmail.webp" alt="correo electronico de Enclick soluciones">
 				</div>
 			</div>
 			<div class="imagenContacto">
