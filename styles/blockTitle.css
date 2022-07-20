@@ -1,0 +1,47 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+.blockTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blockTitle h3{
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+}
+
+.blockTitle .letraIicon{
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 2px;
+  color: white;
+  
+}
+.quienesSomos .letraIicon{background: var(--color-green);}
+.mePersonal .letraIicon{background: var(--color-yellow);}
+.ourServices .letraIicon{background: var(--color-blue);}
+.zonas .letraIicon{background: var(--color-green);}
+.contacto .letraIicon{background: var(--color-yellow);}
+
+@media (max-width: 400px){
+  .blockTitle h3{
+    font-size: 24px;
+  }
+  .blockTitle .letraIicon{
+    font-size: 20px;
+  }
+}

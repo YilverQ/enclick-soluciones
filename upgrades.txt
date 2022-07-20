@@ -15,8 +15,46 @@ Task List:
 	Footer.
 	Politicas y privacidad.
 
+Hacer para la web.
+	//Crear páginas de politicas y privacidad.
+	//Usar imagen-mapa
+	//Hacer un CTA para descargar archivo PDF. // LOW.
 
-renderizar todas las imagenes.
-	//Hacerlo obligatoriamente con las imagenes de contador.
-	//Renombrar las imagenes para mejorar el SEO. Esto se hace al finalizar el proyecto.
-	//Poner title a los enlaces. Buscar si eso mejora el SEO.
+#_versión 1.0_#
+	** Colores primarios: (azul:176bef),(amarillo:f7b529),(verde:179c52) // (negro:000000), (blanco:ffffff).
+	** Enlazar a la página de compras. 
+	** Sección de servicios todo compacto. 
+	** efecto de fluidez. Scroll.
+	** Configurar en el servidor. 
+	** que se adapte a dispositivos móviles.
+
+	Lo que yo añadí profesionalmente.
+		** Técnicas de SEO.
+		** Renderizado de imagenes. 
+		** Modulación del software.
+		** Documentación. 
+		** Controlador de versiones. Git y Github. 
+		** Técnicas de UX y UI.
+
+#_working ugrades_#
+	Zonas de coberturas.
+	Politicas, avisos y coockies.
+	Enlazar con google analitycs.
+	Usabilidad.
+	Navegabilidad.
+
+	Tecnologías Usadas:
+		PHP.
+		CSS 3. 
+		HTML 5. 
+		Git. 
+		GIMP.
+		Firefox.
+		Google Fonts.
+		Font-Awesome.
+		JavaScript.
+		Pexels.
+		"""" Fuentes de imagenes""""
+
+
+Hacer documentación del sistema.

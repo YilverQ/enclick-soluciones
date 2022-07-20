@@ -14,44 +14,43 @@
 */
 
 .videos-youtube{
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  padding: 20px 0;
+  justify-content: center;
 }
 .videos-youtube .content{
   display: flex;
-  width: 600px;
-  margin: 10px;
+  width: 500px;
+  margin: 10px 20px;
   border-radius: 5px;
+  background: lightcyan;
 }
 .videos-youtube .content img{
   object-fit: contain;
-  width: 370px;
-  height: 250px;
-  padding: 10px;
+  width: 300px;
+  height: 100%;
   margin-right: 5px;
+}
+.videos-youtube .description{
+  width: 200px;
 }
 .videos-youtube .content .author{
   color: var(--color-green);
-  font-size: 13px;
+  font-size: 10px;
   padding: 6px 0;
   margin-left: 5px;
 }
-.youtubeIcon{
-  font-size: 30px;
-  color: red;
-  text-align: center;
-  margin-top: 10px;
-}
 .videos-youtube .textDescription{
   margin-left: 5px;
-  font-size: 15px;
+  font-size: 12px;
   padding: 5px 20px 0 0;
 }
 .videos-youtube .description h3{
   padding: 10px 20px 0 5px;
   color: black;
+  font-size: 15px;
 }
 
 .content .botonVideo{
@@ -67,20 +66,20 @@
 }
 
 /*Media query, Alianzas*/
-@media (max-width: 600px){
+@media (max-width: 610px){
   .videos-youtube .content{
     flex-flow: row wrap;
-    width: 370px;
+    width: 300px;
     margin: auto;
     margin-top: 15px;
   } 
-}
-/*Modificar max width*/
-@media (max-width: 400px){
-  .videos-youtube .content{
-    width: 80%;
+  .videos-youtube .textDescription{
+    width: 290px;
     margin: auto;
-    margin-top: 15px;
-    overflow: hidden;
+    margin-left: 5px;
+    padding-bottom: 10px;
+  }
+  .videos-youtube .description h3{
+    width: 300px;
   }
 }

@@ -1,0 +1,18 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Estilos Principales*/
+/*Importamos todos los estilos*/
+@import url("menu.css");
+@import url("header_main.css");
+@import url("blockTitle.css");
+@import url("nuestro_equipo.css");
+@import url("iconsEnterprises.css");
+@import url("quienes_somos.css");
+@import url("servicios.css");
+@import url("contador.css");
+@import url("videos.css");
+@import url("zonas.css");
+@import url("contacto.css");
+@import url("footer.css");
+/*FIN DEL Personal*/

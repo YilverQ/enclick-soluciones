@@ -1,35 +1,35 @@
 	<div class="videos-youtube">
 		<!-- Numeros De Clientes -->
 		<div class="content">
-			<img src="images/videos/asistente-inteligente.jpg" alt="que son las casas inteligentes">
+			<a href="https://bit.ly/3ItYQaI" target="_blank"><img src="images/videos/tener-ser.webp" alt="Diferencias entre tener y ser"></a>
 			<div class="description">
-				<h3 class="title">¿Qué son las casas inteligentes?</h3>
+				<a href="https://bit.ly/3ItYQaI" target="_blank"><h3 class="title">Diferencia entre el tener y el ser.</h3></a>
 				<p class="author">Encli Velasquez</p>
-				<p class="textDescription">La Domótica y la Inmótica serán las próximas tecnologías en nuestros entornos. ¡Descubre que son y dónde se aplican!</p>
+				<p class="textDescription">¿Eres realmente feliz? El "Tener" refiere a aquello que poseemos. Pero, no por ello te genera bienestar y paz. Descubre la diferencia y encuentra la plenitud.</p>
 			</div>
 		</div>
 		<div class="content">
-			<img src="images/videos/equipo.jpg" alt="ventajas de tener una imagen digital">
+			<a href="https://bit.ly/3uxBTh5" target="_blank"><img src="images/videos/velocidades.webp" alt="Diferencias entre velocidades de transferencia"></a>
 			<div class="description">
-				<h3 class="title">10 Ventajas de tener una imagen digital.</h3>
-				<p class="author">Anabel López</p>
-				<p class="textDescription">Existen ventajas al tener una imagen digital. Descubre los trucos para conmocionar a tu audiencia y dejar de perder clientes.</p>
+				<a href="https://bit.ly/3uxBTh5" target="_blank"><h3 class="title">Diferencia entre Kbps, Mbps, KB y MB.</h3></a>
+				<p class="author">Encli Velasquez</p>
+				<p class="textDescription">Todas y cada una son unidades de medición de la transferencia de datos. Aprende de ellas y descubre porque se suelen confundir y porque son tan importantes diferenciarlas.</p>
 			</div>
 		</div>
 		<div class="content">
-			<img src="images/videos/sorprendente.jpg" alt="test de velocidad en venezuela">
+			<a href="https://bit.ly/3NTMWbp" target="_blank"><img src="images/videos/convertir.webp" alt="convertir cryptomonedas en Trust Wallet"></a>
 			<div class="description">
-				<h3 class="title">Sorprendente test de velocidad.</h3>
+				<a href="https://bit.ly/3NTMWbp" target="_blank"><h3 class="title">Convertir cryptomonedas en Trust Wallet y enviar a otra Wallet.</h3></a>
 				<p class="author">Encli Velasquez</p>
-				<p class="textDescription">¿Tienes un internet lento? Descubre como mejorar la velocidad de transferencia. Ya es hora de navegar sin problemas.</p>
+				<p class="textDescription">¡Nunca fue tan fácil convertir cryptomonedas! Aprende cómo convertir ETH a BNB y luego enviar BNB a otra wallet con Trust Wallet.</p>
 			</div>
 		</div>
 		<div class="content">
-			<img src="images/videos/streaming.jpg" alt="como funciona el servicio streaming">
+			<a href="https://bit.ly/3Pj3zP1" target="_blank"><img src="images/videos/transferir.webp" alt="transferir cryptomonedas a Binance"></a>
 			<div class="description">
-				<h3 class="title">¿Cómo funciona el servicio Streaming?</h3>
+				<a href="https://bit.ly/3Pj3zP1" target="_blank"><h3 class="title">Como transferir cryptomoneda a Binance desde Trust wallet.</h3></a>
 				<p class="author">Encli Velasquez</p>
-				<p class="textDescription"><strong>Netflix, Amazon Prime y Disney +.</strong> Lo escuchamos a cada rato pero, ¿Qué son realmente? ¿Cómo funcionan? La era del Streaming llegó.</p>
+				<p class="textDescription">Este tutorial fue creado para ayudar a quienes deseen aprender más sobre transferencia electrónica de Binance y Trust wallet.</p>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,93 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+
+
+/*Configuración del video*/
+header{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background: var(--color-white);
+}
+.infoHeader{
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+}
+.infoHeader p.nota{
+  font-size: 14px;
+}
+.infoHeader h1{
+  font-family: fuente4;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.infoHeader a{
+  padding: 15px 0;
+  font-size: 14px;
+  font-family: fuente4;
+  background: var(--color-blue);
+  color: var(--color-white);
+  width: 120px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+.infoHeader p.textoInformativo{
+  width: 70%;
+}
+.contenedorImage{
+  width: 500px;
+  margin-left: 50px;
+}
+.contenedorImage img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1050px){
+    .infoHeader{
+      padding-top: 50px;
+      width: 400px;
+      height: 500px;
+      justify-content: center;
+    }
+}
+
+@media (max-width: 960px){
+    header{
+      flex-flow: nowrap column-reverse;
+      align-items: center;
+      justify-items: flex-start;
+      background: transparent;
+    }
+    .infoHeader{
+      width: 90%;
+      height: auto;
+      padding-top: 150px;
+    }
+    .infoHeader a{
+      margin: 20px auto;
+      width: 120px;
+    }
+    .contenedorImage{
+      display: none;
+    }
+}

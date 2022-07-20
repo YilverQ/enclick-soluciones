@@ -24,32 +24,11 @@
   padding-bottom: 0;
 }
 .titleMePersonal{
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.ourServices h3{
-  color: #176bef;
-  font-size: 32px;
-  text-align: center;
-  padding: 10px;
-}
-.alianzasContainer h3{
-  font-size: 25px;
-}
-.ourServices .letraIServicio{
-  font-size: 28px;
-  padding: 10px;
-  background: var(--color-blue);
-  border-radius: 2px;
-}
-.imgservicios{
-  width:60px;
-}
-.imgservicios img{
-  width:100%;
-}
-
 .allServices{
   display: flex;
   justify-content: center;
@@ -86,11 +65,10 @@
 }
 .contentService{
   width: 100%;
-  height: 450px;
+  height: 500px;
   overflow: hidden;
   padding: 10px 20px;
 }
-
 .contentService .bloqueInfo{
   height: 0;
   width: 0;
@@ -99,13 +77,11 @@
   background: lightcyan;
   border-radius: 2px;
 }
-
 .contentService .bloqueInfo.activo{
   height: 100%;
   width: 100%;
   transition: all .5s ease;
 }
-
 /*Estilo del bloque bloqueInfo*/
 .bloqueInfo{
   display: flex;
@@ -115,18 +91,19 @@
 .bloqueInfo h2{
   font-size: 20px;
   padding: 10px;
-  color:white;
-  background: var(--color-green);
+  color: var(--color-white);
+  background: var(--color-blue);
   width: 100%;
   border-radius: 2px;
 }
 .bloqueInfo p{
-  max-width: 900px;
+  padding-top: 25px;
+  max-width: 960px;
   margin: auto;
 }
 .bloqueInfo .division{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
 }
@@ -150,41 +127,15 @@
 .listaServicios{
   display: block;
 }
-.listaServicios.activo{
-  display: none;
-}
 /*FIN del bloque bloqueInfo*/
 
-
-/*Media query*/
-@media (max-width: 400px){
-  .titleMePersonal .letraIServicio{
-    font-size: 20px;
-
-  }
-  .titleMePersonal h3{
-    font-size: 24px;
-  }
-}
-
 /*Media de los botones del acordeon*/
-@media (max-width: 800px){
+@media (max-width: 930px){
   .acordeon{
-    width: 100px;
-  }
-  .acordeon .bloque h4{
+    width: 60px;
   }
 }
-
-
-/*Media del bloque de información*/
-@media (max-width: 918px){
-  .bloqueInfo .division{
-    flex-flow: row nowrap;
-  }
-}
-
-@media (max-width: 800px){
+@media (max-width: 930px){
   .contentService{
     height: 500px;
     padding: 10px 20px;
@@ -196,5 +147,40 @@
   }
   .division ul li{
     font-size: 14px;
+  }
+}
+@media (max-width: 690px){
+  .bloqueInfo .division{
+    display: flex;
+    flex-flow: column-reverse nowrap;
+  }
+  .division img{margin-right: 0;}
+  .division ul{padding: 10px 0; margin-left: 0;}
+  .bloqueInfo p{padding-top: 18px;}
+  .contentService{height: 650px;padding: 10px 20px;}
+  .bloqueInfo p strong{
+    font-size: 14px;
+  }
+  .division ul li{
+    width: 300px;
+  }
+}
+
+@media (max-width: 530px){
+  .contentService{height: 750px;padding: 10px 20px;}
+  .division ul li{
+    width: 200px;
+  }
+}
+
+
+@media (max-width: 330px){
+  .bloqueInfo h2{
+    font-size: 16px;
+    padding: 10px;
+    color: var(--color-white);
+    background: var(--color-blue);
+    width: 100%;
+    border-radius: 2px;
   }
 }

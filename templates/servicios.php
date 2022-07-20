@@ -1,12 +1,12 @@
 	<div class="ourServices" id="servicios">
-		<div class="titleMePersonal">
-			<div class="imgservicios"> <img src="images/servicios.png"></div>
-			<h3>Servicios</h3>
+		<div class="blockTitle">
+			<div class="letraIicon"><i class="<?php echo $blocks[2][0] ?>"></i></div>
+			<h3><?php echo $blocks[2][1] ?></h3>
 		</div>
 		<div class="allServices">
 			<div class="acordeon">
 				<div class="bloque activo">
-					<h4 class="h4">Conexión de redes</h4>
+					<h4 class="h4">Redes</h4>
 				</div>
 				<div class="bloque">
 					<h4 class="h4">Dómitica e Inmótica</h4>
@@ -18,7 +18,7 @@
 					<h4 class="h4">Diseño de páginas webs</h4>
 				</div>
 				<div class="bloque">
-					<h4 class="h4">Suministros de equipos tecnológicos</h4>
+					<h4 class="h4">Accesorios tecnológicos</h4>
 				</div>
 				<div class="bloque">
 					<h4 class="h4">Social media</h4>
@@ -35,11 +35,11 @@
 			</div>
 			<div class="contentService">
 				<div class="bloqueInfo activo">
-					<h2>Conexión de redes</h2>
+					<h2>Redes</h2>
 					<p class="infoInfo">Basta de los típicos problemas de caída de conexión o la baja velocidad de transferencia. Nuestro servicio estable permite la conexión sin interrupciones ya que está diseñada para funcionar sin problemas ante las necesidades más exigentes, sin tener que preocuparse por la conexión o velocidad. Con nosotros podrás gozar de cualquier plataformas de video, juegos online y mucho más.</p>
 					<p><strong>Ejemplos de conexión de redes.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/conexion-redes.jpg" alt="conexión de redes en caracas.">
+						<img src="../images/nuestros_servicios/conexion-redes.webp" alt="conexión de redes en caracas.">
 						<ul class="listaServicios">
 							<li>Redes internas.</li> 
 							<li>Enlaces punto a punto.</li> 
@@ -58,7 +58,7 @@
 					<p class="infoInfo">Elaboramos proyectos para la óptima integración de todos los elementos tecnológicos de tu hogar u oficina. Con la dómotica e inmótica podremos convertir un entorno en un lugar mucho más interesante y siempre adaptado a tus necesidades. Nuestro objetivo es crear espacios cómodos y seguros, capaces de responder a tu estilo de vida.</p> 
 					<p><strong>Ejemplos de Dómotica e Inmótica.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/domotica.jpg" alt="Dómotica en caracas.">
+						<img src="../images/nuestros_servicios/domotica.webp" alt="Dómotica en caracas.">
 						<ul class="listaServicios">
 							<li>Automatización de equipos inteligentes.</li> 
 							<li>Iluminación de entorno.</li> 
@@ -77,7 +77,7 @@
 					<p class="infoInfo">El streaming consisten en la transmisión de audio y video a través de la red. En Venezuela los servicios de streaming se han impulsado para ofrecer entretenimiento del mejor contenido online para todos los gustos. Para sacar el máximo provecho, ofrecemos la facilidad para que tú disfrutes de todas las plataformas online.</p>
 					<p><strong>Plataformas de Streaming.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/streaming.jpg" alt="servicios de streaming en caracas.">
+						<img src="../images/nuestros_servicios/streaming.webp" alt="servicios de streaming en caracas.">
 						<ul class="listaServicios">
 							<li>Netflix.</li> 
 							<li>Amazon Prime.</li> 
@@ -96,7 +96,7 @@
 					<p class="infoInfo">Hoy en día es imprescindible tener presencia en internet para mejorar las posibilidades del mercado. Como solución más adecuada a tus necesidades, te ofrecemos tener una página web profesional que impacte positivamente a tus futuros clientes. Con nosotros podrás comenzar tu proyecto web y adquirir una imagen digital de tu empresa o negocio de forma fácil y rápida.</p>
 					<p><strong>Ejemplos de páginas webs.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/diseño-pagina-web.jpg" alt="diseño de páginas en caracas.">
+						<img src="../images/nuestros_servicios/diseño-pagina-web.webp" alt="diseño de páginas en caracas.">
 						<ul class="listaServicios">
 							<li>Web corporativa.</li> 
 							<li>Tienda en línea.</li> 
@@ -111,11 +111,11 @@
 					</div>
 				</div>
 				<div class="bloqueInfo">
-					<h2>Suministros de equipos tecnológicos</h2>
+					<h2>Accesorios tecnológicos</h2>
 					<p class="infoInfo">Actualmente contamos con una gran cantidad de accesorios tecnologícos en nuestros hogar u oficina. Para el desarrollo óptimo de estos dispositivos es necesario contar con una amplia gama de productos de excelente cálidad. Aquí te proveemos dispositivos para el correcto funcionamiento. Permitiendonos adaptarnos siempre a los requerimientos del cliente.</p>
 					<p><strong>Algunos equipos tecnologícos que ofrecemos.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/equipos-tecnologicos.jpg" alt="equipos tecnológicos en caracas.">
+						<img src="../images/nuestros_servicios/equipos-tecnologicos.webp" alt="equipos tecnológicos en caracas.">
 						<ul class="listaServicios">
 							<li>Memoria USB.</li> 
 							<li>Routers.</li> 
@@ -134,7 +134,7 @@
 					<p class="infoInfo">¿Te están escuchando tus clientes? y más importante aún... ¿Tu los estas escuchando a ellos? Pues de eso se trata la magia del marketing. El Social media es una serie de herramientas que nos permiten abrir diversos canales de comunicación en el mundo digital. Queremos que cautives, conectes y crees vínculos sólidos con tu audiencia.</p>
 					<p><strong>¿Qué hacemos como Social media?</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/social-media.jpg" alt="Social media en caracas.">
+						<img src="../images/nuestros_servicios/social-media.webp" alt="Social media en caracas.">
 						<ul class="listaServicios">
 							<li>Comunicación bidireccional con tu audiencia.</li> 
 							<li>Copywriter para contenido.</li> 
@@ -154,7 +154,7 @@
 					</p>
 					<p><strong>Tipos de programas empresariales.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/programa-empresariales.jpg" alt="programas para empresas.">
+						<img src="../images/nuestros_servicios/programa-empresariales.webp" alt="programas para empresas.">
 						<ul class="listaServicios">
 							<li>Control de clientes.</li> 
 							<li>Programas de contabilidad y finanzas.</li> 
@@ -173,7 +173,7 @@
 					<p class="infoInfo">Nos damos la tarea de ampliar tus habilidades para que puedas gozar de nuevas oportunidades. Mediante técnicas de formación combinamos el desarrollo de aptitudes laborales y crecimiento personal, esto con el objetivo de potenciar tus compentencias para generar un impacto en la sociedad. Nuestras capacitaciones están diseñadas para jovénes y adultos, en especial para aquellos que no tienen empleo o quienes están desarrolando su proyecto actualmente.</p>
 					<p><strong>Capacitaciones que ofrecemos.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/capacitaciones.jpg" alt="cursos de tecnología en caracas">
+						<img src="../images/nuestros_servicios/capacitaciones.webp" alt="cursos de tecnología en caracas">
 						<ul class="listaServicios">
 							<li>Criptomonedas.</li> 
 							<li>Binance.</li> 
@@ -192,11 +192,11 @@
 					<p class="infoInfo">En Enclick Soluciones nos caracterizamos por brindar la mejor opción en materia tecnologíca. Siempre a un click de distancia. Por ello, constantemente estamos en busca de la innovación a favor de nuestra audiencia. Para cumplir con los objetivos, no nos quedamos solo en lo básico sino que nos extendemos a todos los sectores tecnologícos que una empresa pueda necesitar. Entre otras atenciones que ofrecemos están:</p>
 					<p><strong>Otros servicios.</strong></p>
 					<div class="division">
-						<img src="../images/nuestros_servicios/mucho-mas.jpg" alt="venezolano feliz.">
+						<img src="../images/nuestros_servicios/mucho-mas.webp" alt="venezolano feliz.">
 						<ul class="listaServicios">
 							<li>Servicio en la nube.</li> 
 							<li>Suministro de papelería.</li> 
-							<li>Asesoramiento empresarial.</li> 
+							<li>Asesoría empresarial.</li> 
 							<li>Seguridad informática.</li> 
 							<li>Digitalización de negocio.</li> 
 							<li>Innovación comercial.</li> 
