@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /privacidad.php
-Disallow: /coockies.php
-Disallow: /condiciones.php
-
-Sitemap: https://yilver.000webhostapp.com/sitemap.xml

@@ -19,43 +19,73 @@
 /*Personal de trabajo*/
 .mePersonal{
   width: 100%;
-  background: #3f3f3f3f;
-  padding: 100px 0;
+  background:linear-gradient( white, #bdbdbd );
+  padding: 100px 0px ;
+}
+.mePersonal h3{
+  color: #f7b529;
+  font-size: 32px;
+  text-align: center;
+}
+.alianzasContainer .titleMePersonal h3{
+  font-family: fuente2;
+  font-size: 20px;
+}
+.mePersonal .letraequipo{
+  width:100px;
+}
+.mePersonal .letraequipo img{
+  width:100%;
 }
 .ContenedorTarjetas{
-  width: 90%;
-  margin: auto;
+  width: 100%;
   display: flex;
   flex-flow: wrap row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 50px;
 }
 .tarjeta{
- width: 240px;
+ width: 260px;
  background: white;
  display: flex;
  flex-flow: nowrap column;
  justify-content: center;
  align-items: center;
  padding: 10px 0;
- border-radius: 2px;
-  box-shadow:  0 1px 2px 0 rgba(60,64,67,0.3), 0 2px 6px 2px rgba(60,64,67,0.15);
-
+ border-radius: 4px;
+ box-shadow: 1px 1px 10px rgba(10, 10, 10, .5);
 }
 .tarjeta img{
   object-fit: cover;
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border-radius: 100%;
   padding: 5px;
-  border: 2px solid var(--color-yellow);
+  border: 2px solid var(--color-green);
 }
+.tarjeta:nth-child(1) img{border: 2px solid var(--color-green);}
+.tarjeta:nth-child(2) img{border: 2px solid var(--color-yellow);}
+.tarjeta:nth-child(3) img{border: 2px solid var(--color-blue);}
+.tarjeta:nth-child(4) img{border: 2px solid var(--color-green);}
+
 .tarjeta h4{
   text-align: center;
   font-size: 20px;
   margin-top: 20px;
+  border-bottom: 2px solid var(--color-green);
+}
+.tarjeta:nth-child(1) h4{
+  border-bottom: 2px solid var(--color-green);
+}
+.tarjeta:nth-child(2) h4{
   border-bottom: 2px solid var(--color-yellow);
+}
+.tarjeta:nth-child(3) h4{
+  border-bottom: 2px solid var(--color-blue);
+}
+.tarjeta:nth-child(4) h4{
+  border-bottom: 2px solid var(--color-green);
 }
 .tarjeta p{
   margin-top:5px;
@@ -74,34 +104,125 @@
 .tarjeta .botonesRedes a:nth-child(3){color: var(--color-green);}
 /*FIN DEL Personal*/
 
+/*Alianzas*/
+.alianzasContainer{
+  margin-top: 100px;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+}
+.alianzas{
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: center;
+  align-items: center;
+}
+.titleMePersonal{
+  padding: 50px 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alianzasContainer .icono-alinza{
+  width: 70px;
+  padding:10px ;
+}
+.alianzasContainer .icono-alinza img{
+  width: 100%;
+}
+.titleMePersonal #nuestroequipo{
+  color: #257DB4;
+  padding: 2px;
+  font-size: 30px;
+}
+/*FIN DE las alianzas*/
+
+
+
+
+
+
+
+
 
 /*Media Query Tarjetas*/
-@media (max-width: 1260px){
+@media (max-width: 1180px){
+  .tarjeta{
+    margin: 10px 60px;
+  } 
+  .ContenedorTarjetas{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 860px){
+  .tarjeta{
+    margin: 10px 10px;
+  } 
+}
+@media (max-width: 860px){
   .tarjeta{
     margin: 10px 10px;
   } 
   .ContenedorTarjetas{
-    justify-content: center;
-    padding: 50px 0;
-    flex-flow: nowrap row;
+    padding: 0px;
   }
-}
-@media (max-width: 1060px){
-  .ContenedorTarjetas{
-    flex-flow: wrap row;
-  }
-  .tarjeta{
-    margin: 10px 50px;
-  } 
-}
-@media (max-width: 750px){
-  .tarjeta{
-    margin: 10px 5px;
-  } 
 }
 @media (max-width: 400px){
-  .tarjeta{
-    padding: 10px 20px 10px 20px;
+ .tarjeta{
+   width: 200px;
   }
+  .tarjeta img{
+    width: 120px;
+    height: 120px;
+  }
+  .tarjeta h4{
+    font-size: 17px;
+  }
+  .mePersonal h3{
+    font-size: 24px;
+  }
+  .mePersonal .letraIEquipo{
+    font-size: 20px;
+  }
+  @media (max-width: 410px){
+  .titleMePersonal #nuestroequipo{
+  padding: 0px;
+  font-size: 25px;
+}
+  .alianzasContainer .icono-alinza{
+  width: 50px;
+  padding:10px ;
+}
+}
 }
 /*FIN DE LOS Media Query*/
+
+/*Media query, Alianzas*/
+@media (max-width: 700px){
+  .alianzas{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+  }
+  .alianzasContainer{
+    height: auto;
+  }
+  .alianzas .equipo{
+    margin: 10px 10px;
+  }
+  @media (max-width: 400px){
+    .titleMePersonal #nuestroequipo{
+    color: #257DB4;
+    padding: 0px;
+    font-size: 20px;
+  }
+
+  @media (max-width: 400px){
+  .titleMePersonal #nuestroequipo{
+  color: #257DB4;
+  padding: 0px;
+  font-size: 20px;
+}  
+}

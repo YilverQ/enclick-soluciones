@@ -6,9 +6,9 @@
 			</div>
 			<div class="derechos">
 				<ul>
-					<li><a href="#" rel="nofollow">Politicas de privacidad</a></li>
-					<li><a href="#" rel="nofollow">Políticas de Cookies</a></li>
-					<li><a href="#" rel="nofollow">Aviso legal</a></li>
+					<li><a href="#">Politicas de privacidad</a></li>
+					<li><a href="#">Políticas de Cookies</a></li>
+					<li><a href="#">Términos y condiciones</a></li>
 				</ul>
 			</div>
 		</div>

@@ -1,0 +1,126 @@
+/*Importar Estilos*/
+
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+
+
+/*Configuración del video*/
+header{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+#inicio{
+  background-image: url(../images/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.infoHeader{
+  width: 500px;
+  height: 700px;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;  
+}
+.infoHeader p.nota{
+  font-size: 14px;
+  margin: 10px 0;
+}
+.infoHeader h2{
+  font-family: fuente4;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.infoHeader a{
+  padding: 15px 0;
+  font-size: 14px;
+  font-family: fuente4;
+  background: var(--color-blue);
+  color:white;
+  width: 120px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.infoHeader a:hover{
+  transition: 0.4s;
+  box-shadow: 2px 2px 20px #176bef;
+}
+.infoHeader p.textoInformativo{
+  width: 70%;
+}
+.contenedorImage{
+  width: 500px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.contenedorImage img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1050px){
+    .infoHeader{
+      width: 400px;
+    }
+    .contenedorImage{
+      width: 400px;
+    }
+}
+
+@media (max-width: 850px){
+    header{
+      flex-flow: nowrap column-reverse;
+      align-items: center;
+      justify-items: flex-start;
+      background: transparent;
+    }
+    .infoHeader{
+      width: 90%;
+      height:500px;
+      padding-top: 100px;
+    }
+    .infoHeader a{
+      margin: 20px auto;
+      width: 120px;
+    }
+    .contenedorImage{
+      display: none;
+    }
+}
+@media (max-width: 660px){
+    header{
+      flex-flow: nowrap column-reverse;
+      align-items: center;
+      justify-items:center;
+      background: transparent;
+    }
+    #inicio{
+      height: 500px;
+    }
+    .infoHeader{
+      width: 90%;
+      height:500px;
+      padding-top: 0px;
+    }
+    .infoHeader h2{
+      font-size: 30px;
+    }
+    .infoHeader a{
+      margin: 10px auto;
+      width: 120px;
+}

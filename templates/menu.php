@@ -13,24 +13,12 @@
 
 		<!-- Menú/NAV -->
 		<ul class="menu">
-			<a href="#inicio" class="menu-click">
-				<li><i class="fa-solid fa-house menu-icon-hidden"></i>Inicio</li>
-			</a>
-			<a href="#quienes_somos" class="menu-click">
-				<li><i class="fa-solid fa-building-columns menu-icon-hidden"></i>¿Quiénes somos?</li>
-			</a>
-			<a href="#nuestro_equipo" class="menu-click">
-				<li><i class="fa-solid fa-user-group menu-icon-hidden"></i>Nuestro equipo</li>
-			</a>
-			<a href="#servicios" class="menu-click">
-				<li><i class="fa-solid fa-boxes-stacked menu-icon-hidden"></i>Servicios</li>
-			</a>
-			<a href="#zonasCoberturas" class="menu-click">
-				<li id="short_text"><i class="fa-solid fa-location-dot menu-icon-hidden"></i>Zonas de coberturas</li>
-			</a>
-			<a href="#contacto" class="menu-click">
-				<li><i class="fa-regular fa-message menu-icon-hidden"></i>Contacto</li>
-			</a>
+			<a href="#inicio"><li>Inicio</li></a>
+			<a href="#quienes_somos"><li>¿Quiénes somos?</li></a>
+			<a href="#nuestro_equipo"><li>Nuestro equipo</li></a>
+			<a href="#servicios"><li>Servicios</li></a>
+			<a href="#zonasCoberturas"><li>Zonas de coberturas</li></a>
+			<a href="#contacto"><li>Contacto</li></a>
 		</ul>
 	</nav>
-	<!-- Final -->
+<!-- Final -->

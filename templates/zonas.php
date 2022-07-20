@@ -1,7 +1,7 @@
 	<div class="zonas" id="zonasCoberturas">
-		<div class="blockTitle">
-			<div class="letraIicon"><i class="<?php echo $blocks[3][0] ?>"></i></div>
-			<h3><?php echo $blocks[3][1] ?></h3>
+		<div class="titleZonas">
+			<div class="letraIZonas"><i class="fa-solid fa-location-dot"></i></div>
+			<h3>Zonas de coberturas.</h3>
 		</div>
 		<ul class="listaZonas">
 			<li class="zonaItem">Mariches</li>

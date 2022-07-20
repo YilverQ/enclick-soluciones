@@ -1,0 +1,29 @@
+/*Importar Estilos*/
+@import url("template.css");
+
+/*Colores*/
+/*
+  --color-blue: #176bef;
+  --color-yellow: #f7b529;
+  --color-green: #179c52;
+  --color-red: #ff3e30;
+
+  --color-gray: #bdbdbd;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray2: #b4b3a9;
+*/
+/*Estilos Principales*/
+
+/*/var/www/html/styles/quienes_somos.css*/
+
+/*Personal de trabajo*/
+@import url("nuestro_equipo.css");
+@import url("quienes_somos.css");
+@import url("servicios.css");
+@import url("contador.css");
+@import url("videos.css");
+@import url("zonas.css");
+@import url("contacto.css");
+@import url("footer.css");
+/*FIN DEL Personal*/

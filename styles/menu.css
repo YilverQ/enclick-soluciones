@@ -22,17 +22,18 @@ nav{
     background: white;
     position: fixed;
     display: flex;
-    flex-flow: nowrap row;
-    justify-content: space-between;
+    flex-flow:rowr;
+    justify-content:space-around;
     align-items: center;
     z-index: 10;
     overflow: hidden;
+    box-shadow: 5px 3px 10px #b4b3a9;
 }
 nav img{
     display: block;
     object-fit: cover;
-    height: 65px;
-    margin-left: 20px;
+    height: 60px;
+    margin-left: 100px;
     animation: moverAbajo 1s;
 }
 nav ul{
@@ -44,19 +45,14 @@ nav ul li{
     font-size: 14px;
     line-height: 75px;
     padding: 0 10px;
-    margin-right: 10px;
+    margin-right: z 0px;
     transition: .5s all;
     animation: moverArriba 1s;
-    display: flex;
 }
 nav li:hover{
     background: var(--color-green);
     color: white;
-    transition: .5s all;
-}
-.menu-icon-hidden{
-    display: none;
-    margin-right: 20px;
+    transition: .3s all;
 }
 
 
@@ -73,7 +69,6 @@ label #sign-two{
 }
 #res-menu, .res-menu{
     display: none;
-    margin-right: 5px;
 }
 
 
@@ -83,9 +78,6 @@ label #sign-two{
         display: block;
     }
     label #sign-one{
-        display: block;
-    }
-    .menu-icon-hidden{
         display: block;
     }
     nav{
@@ -99,20 +91,20 @@ label #sign-two{
         top: 70px;
         left: -100%;
         text-align: center;
-        transition: .8s;
+        transition: .5s;
         z-index: 10;
         flex-flow: nowrap column;
         align-items: center;
     }
     nav ul li{
         color: white;
+        display: block;
         margin: 10px 0;
         line-height: 30px;
-        padding: 10px;
+        padding: 20px;
         width: 300px;
         font-size: 18px;
         border-radius: 2px;
-        align-items: center;
     }
     nav ul li a{
         font-size: 20px;
@@ -129,22 +121,12 @@ label #sign-two{
 }
 
 @media (max-width: 500px){
-    nav ul a:nth-child(1){margin-top: 20px}
     nav ul li{
-        padding: 10px 5px;
-        width: 90%;
-        margin: auto;
+        padding: 20px 0;
+        width: 100%;
         font-size: 16px;
     }
     nav ul a{
-        width: 100%;
-    }
-}
-
-@media (max-width: 300px){
-    nav ul li{
-        padding: 10px 0;
-        padding-left: 10px;
         width: 100%;
     }
 }

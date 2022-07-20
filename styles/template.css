@@ -1,4 +1,4 @@
-/*Estilos para todos los elementos*/
+/*Para Todo*/
 * {
   padding: 0;
   margin: 0;
@@ -6,13 +6,20 @@
 }
 a{text-decoration: none;}
 li{list-style: none;}
-/*Fin de los estilos que aplican para todos los elementos*/
+/*Fin Para Todo*/
 
-
-/*Importamos las fuentes que usará nuestra página*/
+/*Fuentes*/
+@font-face{
+    font-family: fuente1;
+    src: url(../fonts/Comfortaa-Bold.ttf); 
+}
 @font-face{
     font-family: fuente2;
     src: url(../fonts/Comfortaa-Regular.ttf); 
+}
+@font-face{
+    font-family: fuente3;
+    src: url(../fonts/Merriweather-Regular.ttf); 
 }
 @font-face{
     font-family: fuente4;
@@ -25,38 +32,27 @@ li{list-style: none;}
 :root{
   /*Colores de Google*/
   --color-blue: #176bef;
-  --color-yellow: #f7b529;
   --color-green: #179c52;
-  --color-red: #ff3e30;
-
-  /*Otros colores*/
-  --color-gray: #bdbdbd;
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-gray2: #b4b3a9;
 }
 /*FIN de las Customs Propities*/
 
 
-/*Estilos para los elementos principales*/
+/*Estructura*/
 html {
   scroll-behavior: smooth;
 }
 h1, h2, h3, h4{
   font-family: fuente4;
-  font-display: fallback;
 }
 p, li, a{
   font-family: fuente2;
-  font-display: fallback;
   color:#2d3436;
 }
-/*Fin de los estilos principales*/
+/*Fin de la Estructura*/
 
 
 /*KEYFRAMES*/
 @keyframes moverIzquierda{
-    /*Animación de izquiera a derecha*/
     0%{
         opacity: 0;
         transform: translateX(-100px);
@@ -67,7 +63,6 @@ p, li, a{
     }
 }
 @keyframes moverDerecha{
-    /*Animación de derecha a izquierda*/
     0%{
         opacity: 0;
         transform: translateX(100px);
@@ -79,7 +74,6 @@ p, li, a{
 }
 
 @keyframes moverArriba{
-    /*Animación de abajo a arriba*/
     0%{
         opacity: 0;
         transform: translateY(100px);
@@ -90,7 +84,6 @@ p, li, a{
     }
 }
 @keyframes moverAbajo{
-    /*Animación de arriba a abajo*/
     0%{
         opacity: 0;
         transform: translateY(-100px);
@@ -101,7 +94,6 @@ p, li, a{
     }
 }
 @keyframes desvanecer{
-    /*Animación para manifestar un elemento que se encuentra oculto*/
     0%{
         opacity: 0;
     }
