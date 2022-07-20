@@ -19,10 +19,42 @@ Hacer para la web.
 	//Crear páginas de politicas y privacidad.
 	//Usar imagen-mapa
 	//Hacer un CTA para descargar archivo PDF. // LOW.
-	//agregar espacios en mision y vision. #aplicar al texto titulo
+
+#_versión 1.0_#
+	** Colores primarios: (azul:176bef),(amarillo:f7b529),(verde:179c52) // (negro:000000), (blanco:ffffff).
+	** Enlazar a la página de compras. 
+	** Sección de servicios todo compacto. 
+	** efecto de fluidez. Scroll.
+	** Configurar en el servidor. 
+	** que se adapte a dispositivos móviles.
+
+	Lo que yo añadí profesionalmente.
+		** Técnicas de SEO.
+		** Renderizado de imagenes. 
+		** Modulación del software.
+		** Documentación. 
+		** Controlador de versiones. Git y Github. 
+		** Técnicas de UX y UI.
+
+#_working ugrades_#
+	Zonas de coberturas.
+	Politicas, avisos y coockies.
+	Enlazar con google analitycs.
+	Usabilidad.
+	Navegabilidad.
+
+	Tecnologías Usadas:
+		PHP.
+		CSS 3. 
+		HTML 5. 
+		Git. 
+		GIMP.
+		Firefox.
+		Google Fonts.
+		Font-Awesome.
+		JavaScript.
+		Pexels.
+		"""" Fuentes de imagenes""""
 
 
-Aprender CSS:
-	Flexbox: Mejorar 100%.
-	background-blend-mode: ; // Que es.
-	clippad.
+Hacer documentación del sistema.

@@ -1,6 +1,6 @@
 			<div class="iconsEnterprises">
 				<div class="titleMePersonal">
-					<h3 id="clientes">Aceptamos</h3>
+					<h3 id="clientes">Métodos de pagos</h3>
 				</div>
 				<div class="iconsContainer">
 					<div class="icon_element">
