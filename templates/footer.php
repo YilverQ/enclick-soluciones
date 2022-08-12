@@ -2,7 +2,7 @@
 		<div class="footer">
 			<div class="copyright">
 				<p><i class="fa-regular fa-copyright"></i></p>
-				<p>Enclick Soluciones 2022</p>
+				<p>Enclick Soluciones 2022 C.A</p>
 			</div>
 			<div class="derechos">
 				<ul>

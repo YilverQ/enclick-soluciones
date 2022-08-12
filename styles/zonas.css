@@ -26,49 +26,60 @@
 /*Letras Inicio Zonas*/
 
 /*Otros estilos*/
-.zonas ul{
-  width: 80%;
-  margin: auto;
+.zona__info{
   margin-top: 50px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: wrap row-reverse;
+  justify-content: center;
 }
-.zonas .zonaItem{
-  width: 300px;
-  background: white;
-  padding: 10px;
-  font-size: 20px;
-  font-family: fuente2;
-  margin: 5px 5px;
-  border-radius: 1px 5px 1px 5px;
-  border-left: 10px solid rgba(10, 10, 10, .0);
-  transition: all .5s ease;
+.zona__imagen{
+  width: 600px;
+  margin-right: 50px;
 }
-.zonas .zonaItem:hover{
-  transition: all .5s;
-  border-left: 10px solid var(--color-green);
+.zona__imagen img{
+  display: block;
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+.zona__description{
+  width: 500px;
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+}
+.zona__description h2{
+  font-size: 25px;
+  margin-top: 10px;
+}
+.zona__description .textoInformativo{
+  margin-top: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-/*Media query*/
-@media (max-width: 1169px){
-  .zonas .zonaItem{
-    width: 200px;
-    height: 100%;
-  }
+/*Imagen zonas*/
+@media (max-width: 1190px){
+    .zona__imagen{
+      margin-top: 25px;
+      margin-right: 0;
+    }
+    .zona__info{
+      margin-top: 50px;
+      display: flex;
+      flex-flow: wrap column;
+      justify-content: center;
+      align-items: center;
+    }
 }
-
-/*Media query*/
-@media (max-width: 787px){
-  .zonas .zonaItem{
-    width: 150px;
-    font-size: 16px;
-  }
-}
-/*Media query*/
-@media (max-width: 787px){
-  .zonas ul{
-    width: 95%;
-    justify-content: center;
-  }
+@media (max-width: 600px){
+    .zona__imagen{
+      width: 90%;
+      margin: auto;
+      margin-top: 25px;
+    }
+    .zona__description{
+      width: 90%;
+      margin: auto;
+    }
 }

@@ -36,7 +36,7 @@
 			<div class="contentService">
 				<div class="bloqueInfo activo">
 					<h2>Redes</h2>
-					<p class="infoInfo">Basta de los típicos problemas de caída de conexión o la baja velocidad de transferencia. Nuestro servicio estable permite la conexión sin interrupciones ya que está diseñada para funcionar sin problemas ante las necesidades más exigentes, sin tener que preocuparse por la conexión o velocidad. Con nosotros podrás gozar de cualquier plataformas de video, juegos online y mucho más.</p>
+					<p class="infoInfo">Basta de los típicos problemas de caída de conexión o la baja velocidad de transferencia. Nuestro servicio estable permite la conexión sin interrupciones ya que está diseñada para funcionar sin problemas ante las necesidades más exigentes, sin tener que preocuparse por la conexión o velocidad. Con nosotros podrás gozar de cualquier plataforma de streaming, juegos online y mucho más.</p>
 					<p><strong>Ejemplos de conexión de redes.</strong></p>
 					<div class="division">
 						<img src="../images/nuestros_servicios/conexion-redes.webp" alt="conexión de redes en caracas.">
@@ -86,7 +86,7 @@
 							<li>Youtube Premium.</li> 
 							<li>Spotify.</li> 
 							<li>Deezer.</li>
-							<li>HULU.</li>
+							<li>Star+.</li>
 							<li>¡Y Mucho Más!</li>
 						</ul>
 					</div>
@@ -123,7 +123,7 @@
 							<li>Switch.</li> 
 							<li>Mouse.</li> 
 							<li>Teléfonos.</li> 
-							<li>Laptos.</li>
+							<li>Laptop's.</li>
 							<li>Cámaras de seguridad.</li>
 							<li>¡Y Mucho Más!</li>
 						</ul>
@@ -131,7 +131,7 @@
 				</div>
 				<div class="bloqueInfo">
 					<h2>Social media</h2>
-					<p class="infoInfo">¿Te están escuchando tus clientes? y más importante aún... ¿Tu los estas escuchando a ellos? Pues de eso se trata la magia del marketing. El Social media es una serie de herramientas que nos permiten abrir diversos canales de comunicación en el mundo digital. Queremos que cautives, conectes y crees vínculos sólidos con tu audiencia.</p>
+					<p class="infoInfo">¿Te están escuchando tus clientes? y más importante aún... ¿Tú los estás escuchando a ellos? Pues de eso se trata la magia del marketing. El Social media es una serie de herramientas que nos permiten abrir diversos canales de comunicación en el mundo digital. Queremos que cautives, conectes y crees vínculos sólidos con tu audiencia.</p>
 					<p><strong>¿Qué hacemos como Social media?</strong></p>
 					<div class="division">
 						<img src="../images/nuestros_servicios/social-media.webp" alt="Social media en caracas.">
@@ -170,7 +170,7 @@
 				</div>
 				<div class="bloqueInfo">
 					<h2>Capacitaciones</h2>
-					<p class="infoInfo">Nos damos la tarea de ampliar tus habilidades para que puedas gozar de nuevas oportunidades. Mediante técnicas de formación combinamos el desarrollo de aptitudes laborales y crecimiento personal, esto con el objetivo de potenciar tus compentencias para generar un impacto en la sociedad. Nuestras capacitaciones están diseñadas para jovénes y adultos, en especial para aquellos que no tienen empleo o quienes están desarrolando su proyecto actualmente.</p>
+					<p class="infoInfo">Nos damos la tarea de ampliar tus habilidades para que puedas gozar de nuevas oportunidades. Mediante técnicas de formación combinamos el desarrollo de aptitudes laborales y crecimiento personal, esto con el objetivo de potenciar tus compentencias para generar un impacto en la sociedad. Nuestras capacitaciones están diseñadas para jovénes y adultos, en especial para aquellos que no tienen empleo o quienes están desarrollando su proyecto actualmente.</p>
 					<p><strong>Capacitaciones que ofrecemos.</strong></p>
 					<div class="division">
 						<img src="../images/nuestros_servicios/capacitaciones.webp" alt="cursos de tecnología en caracas">
@@ -189,7 +189,7 @@
 				</div>
 				<div class="bloqueInfo">
 					<h2>Otros Servicios</h2>
-					<p class="infoInfo">En Enclick Soluciones nos caracterizamos por brindar la mejor opción en materia tecnologíca. Siempre a un click de distancia. Por ello, constantemente estamos en busca de la innovación a favor de nuestra audiencia. Para cumplir con los objetivos, no nos quedamos solo en lo básico sino que nos extendemos a todos los sectores tecnologícos que una empresa pueda necesitar. Entre otras atenciones que ofrecemos están:</p>
+					<p class="infoInfo">En Enclick Soluciones nos caracterizamos por brindar la mejor opción en materia tecnologíca. Siempre a un click de distancia. Por ello, constantemente estamos en busca de la innovación a favor de nuestra audiencia. Para cumplir con los objetivos, no nos quedamos solo en lo básico sino que nos extendemos a todos los sectores tecnológicos que una empresa pueda necesitar. Entre otras atenciones que ofrecemos están:</p>
 					<p><strong>Otros servicios.</strong></p>
 					<div class="division">
 						<img src="../images/nuestros_servicios/mucho-mas.webp" alt="venezolano feliz.">

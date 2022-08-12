@@ -3,24 +3,15 @@
 			<div class="letraIicon"><i class="<?php echo $blocks[3][0] ?>"></i></div>
 			<h3><?php echo $blocks[3][1] ?></h3>
 		</div>
-		<ul class="listaZonas">
-			<li class="zonaItem">Mariches</li>
-			<li class="zonaItem">La Dolorita</li>
-			<li class="zonaItem">Palo Verde</li>
-			<li class="zonaItem">Petare</li>
-			<li class="zonaItem">Los Ruices</li>
-			<li class="zonaItem">La Florida</li>
-			<li class="zonaItem">Las Mercedes</li>
-			<li class="zonaItem">Chacao</li>
-			<li class="zonaItem">Alto Prado</li>
-			<li class="zonaItem">Baruta</li>
-			<li class="zonaItem">El Hatillo</li>
-			<li class="zonaItem">La Hoyada</li>
-			<li class="zonaItem">Bellas Artes</li>
-			<li class="zonaItem">Catia</li>
-			<li class="zonaItem">La Pastora</li>
-			<li class="zonaItem">Chacaito</li>
-			<li class="zonaItem">Caricuao</li>
-			<li class="zonaItem">Los Teques</li>
-		</ul>
+		<div class="zona__info">	
+			<div class="zona__description">
+				<p class="nota">¡Nada como el servicio en casa!</p>
+				<h2>Si te encuentras dentro de la zona de cobertura.</h2>
+				<p class="textoInformativo">Enclick Soluciones ofrecerá respuesta inmediata para cada uno de los municipios de la Gran Caracas. Realizar tu pedido nunca fue tan fácil.</p>
+				<p class="textoInformativo">Si estás fuera de nuestra zona de cobertura, no te preocupes, ponte en contacto con nosotros y sorprendete de las alternativas que tenemos para ti.</p>
+			</div>
+			<div class="zona__imagen">
+				<img src="images/zonas/cobertura.webp" alt="Enclick Soluciones">
+			</div>
+		</div>
 	</div>
